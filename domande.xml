@@ -18,7 +18,7 @@ Tocca il pulsante "indizi" per continuare.
 		<risposta>ok</risposta>
 		<accuratezza>approssimata</accuratezza>
 		<indizio0>conferma inviando il messaggio "OK"</indizio0>
-		<indizio1>non disponibile</indizio1>
+		<indizio1>non disponibile</indizio1> 
 		<indizio2>non disponibile</indizio2>
 		<indizio3>non disponibile</indizio3>
 		<attesa1>99999999</attesa1>
