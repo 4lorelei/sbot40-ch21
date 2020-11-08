@@ -27,7 +27,9 @@ if(!$update)
 //Chestnut2019 - (LaraLuu31-Chestnut2019)
 //$token="738410474:AAHdHaQ0M3pOmMf1uU9boanIc4JtFy3V5ww";
 //BigBugs - (LaraLuu test - BigBugs evo)
-$token="327275867:AAFGxtaZMUmwR08BIzI542RmdYfMrwPn36w";
+//$token="327275867:AAFGxtaZMUmwR08BIzI542RmdYfMrwPn36w";
+//Chestnut2021 (LaraLuu40-Chestnut2021)
+$token="1411271054:AAEKcS18LRxkn4MwhVg4542IgjCcPpy_avk";
 
 $botUrl = "https://api.telegram.org/bot".$token."/sendPhoto";
 $botUrlVoice = "https://api.telegram.org/bot".$token."/sendVoice";
