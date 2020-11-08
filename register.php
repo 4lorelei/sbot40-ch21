@@ -1,7 +1,7 @@
 <?php
 
 // PARAMETRI DA MODIFICARE
-$WEBHOOK_URL = 'https://sbot40-ch21.herokuapp.com/.herokuapp.com/execute.php';
+$WEBHOOK_URL = 'https://sbot40-ch21.herokuapp.com/execute.php';
 $BOT_TOKEN = '1411271054:AAEKcS18LRxkn4MwhVg4542IgjCcPpy_avk';
 
 // NON APPORTARE MODIFICHE NEL CODICE SEGUENTE
