@@ -1,0 +1,14 @@
+﻿<b>COMANDI RICONOSCIUTI DAL BOT:</b>
+
+/about - info sul bot
+/about faq - scarica le FAQ
+
+/help - indizi per il livello corrente
+/refresh - ripete la domanda
+/stat - info sulla gara
+/ranking - visualizza classifica
+/chat - invia messaggio all'admin
+/nick - imposta il nickname
+/team - crea e gestisce il team
+/register - registra l'utente
+/zero - azzera il livello di gioco

@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tesoro>
+	<domanda>
+		<tipo>testo</tipo>
+		<risorsa>
+Puoi prendere visione del regolamento della caccia al tesoro toccando il pulsante "about".
+
+La gara avrà inizio il giorno xxxxxx alle ore 14:30, nel frattempo puoi prendere familiarità con l'app partecipando all'anteprima di Chestnut.
+Il punteggio che conquisti in questa fase NON è significativo ai fini della gara!
+Ti consiglio di impostare fin da subito il tuo nickname e di effettuare la registrazione anagrafica. Inoltre, se vuoi gareggiare insieme ad alcuni amici della scuola, puoi formare una squadra in modo da essere pienamente operativo alla partenza della gara.
+
+@InsideChestnutXXXX è il canale ufficiale della caccia al tesoro: unisciti al canale per restare sempre aggiornato.
+
+Tocca il pulsante "indizi" per continuare.
+		</risorsa>
+		<risposta>ok</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>conferma inviando il messaggio "OK"</indizio0>
+		<indizio1>non disponibile</indizio1>
+		<indizio2>non disponibile</indizio2>
+		<indizio3>non disponibile</indizio3>
+		<attesa1>99999999</attesa1>
+		<attesa2>99999999</attesa2>
+		<attesa3>99999999</attesa3>
+		<autore>bs regolamento</autore> 
+    </domanda>
+	
+	
+	<!-- valori di default per le attese: 60 12 180 (in minuti) -->
+	<!-- massima attesa impostabile 1440 (24 h) -->
+	
+	<!-- Caratteri significativi nelle panoramiche a-zA-Z0-9-+*:><=.èéàòùì -->
+	<!-- (la virgola e tutti gli altri caratteri diventano spazio) -->
+	
+	<!-- Caratteri significativi in tornado a-zA-Z0-9-+*:><=.,èéàòùì -->
+	<!-- (la voirgola è significativa) -->
+	
+     <!-- INIZIO ANTEPRIMA -->
+	 
+	 <domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/anagramma.jpg</risorsa>
+		<risposta>due tre | 2 3</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>quali carte hanno il dorso "segnato"?
+risolvi l’anagramma e lo saprai
+
+
+suggerimento:
+la presenza della ruota panoramica tra gli indizi rivela che il bot valuta la risposta ignorando le parole in più, anche quelle sbagliate
+
+...in questo caso puoi rispondere elencando tutte le carte e superare il livello anche senza risolvere l'anagramma</indizio0>
+		<indizio1>l'anagramma inizia così:
+le carte segnate...</indizio1>
+		<indizio2>le carte segnate sono...</indizio2>
+		<indizio3>le carte segnate sono il due e il...</indizio3>
+		<attesa1>5</attesa1>
+		<attesa2>7</attesa2>
+		<attesa3>9</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs panoramica</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/cani.jpg</risorsa>
+		<risposta>lorenzo lilli | lorenzo e lilli</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>individua la coppia intrusa
+
+suggerimento:
+poiché tra gli indizi compare l'emoticon della montagna russa (tornado), nella risposta dovrai indicare solo le parole che compongono la risposta esatta
+
+per risolvere questo enigma, ad ogni tentativo dovrai limitarti ad indicare una singola coppia
+</indizio0>
+		<indizio1>Tom e Franco sono identici</indizio1>
+		<indizio2>Sally e Bernarda sono "lisce"</indizio2>
+		<indizio3>Tullio e Ralph hanno lo stesso sguardo</indizio3>
+		<attesa1>5</attesa1>
+		<attesa2>7</attesa2>
+		<attesa3>9</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs tornado</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/america.jpg</risorsa>
+		<risposta>venerdì | venerdi</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>In quale giorno della settimana fu scoperta l'America?
+
+suggerimento:
+un bel vantaggio se indovini al primo tentativo!
+la presenza del lollipop tra gli indizi indica che rispondendo correttamente al primo tentativo riceverai un bonus in minuti:
+se riesci, sul prossimo livello l'attesa per ricevere gli indizi si riduce rispetto al tempo standard
+		</indizio0>
+		<indizio1>è un giorno feriale</indizio1>
+		<indizio2>corrisponde con il nome dell'aborigeno cui Robinson Crusoe salva la vita</indizio2>
+		<indizio3>è il giorno dedicato alla dea dell'amore</indizio3>
+		<attesa1>5</attesa1>
+		<attesa2>7</attesa2>
+		<attesa3>9</attesa3>
+		<bonus>4</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs lollipop</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/lennon.jpg</risorsa>
+		<risposta>lennon | john lennon</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>chi è il personaggio della caricatura?
+
+suggerimento:
+rifletti prima di rispondere! 
+quando compare l'emoticon di tortuga tra gli indizi, non puoi rispondere a ripetizione ma devono passare alcuni secondi tra una risposta e l'altra 
+		</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>5</attesa1>
+		<attesa2>7</attesa2>
+		<attesa3>9</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>20</tartaruga>
+ 		<autore>bs tortuga</autore>
+	</domanda>	
+	
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/teseo.jpg</risorsa>
+		<risposta>filo di Arianna | gomitolo di lana | filo di lana | segue il filo | riavvolge il filo | srotola il filo | seguendo il filo | riavvolgendo il filo | srotolando il filo</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>Teseo come riuscì a trovare l'uscita del labirinto?
+		
+suggerimento:
+descrivi con una frase la strategia utilizzata da Teseo
+il bot riconosce come valide più risposte diverse</indizio0>
+		<indizio1>Teseo era innamorato di Arianna</indizio1>
+		<indizio2>il nome di Arianna è collegato ad un celebre mito</indizio2>
+		<indizio3>Pollicino nella famosa fiaba trova la strada del ritorno grazie alle briciole che aveva disseminato, Teseo si organizza diversamente...</indizio3>
+		<attesa1>3</attesa1>
+		<attesa2>5</attesa2>
+		<attesa3>7</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs risposta aperta</autore>
+	</domanda>	
+
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/ruote2.jpg</risorsa>
+		<risposta>4500</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>se la ruota verde fa 3000 giri, quanti ne fa la ruota rossa?
+		
+suggerimento:
+ricorda che puoi ricominciare l'anteprima dall'inizio in qualsiasi momento inviando il messaggio /zero
+		</indizio0>
+		<indizio1>concentrati sulla prima e sull'ultima ruota</indizio1>
+		<indizio2>la ruota verde ha 36 denti</indizio2>
+		<indizio3>...e quella rossa ne ha 24</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>89</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs ruote 2:3</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>video</tipo>
+		<risorsa>video/joker.mp4</risorsa>
+		<risposta>ossimetro | saturimetro | pulsossimetro </risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>The Dark Knight - Joker and Two-Face hospital scene... qualcosa non va!!!</indizio0>
+		<indizio1>fai attenzione alle immagini</indizio1>
+		<indizio2>al lancio della moneta</indizio2>
+		<indizio3>è un errore cinematografico</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>89</bonus>
+		<tartaruga>0</tartaruga>
+		<autore>bs Joker</autore>
+    </domanda>
+
+	<domanda>
+		<tipo>testo</tipo>
+		<risorsa> sono al centro della scena ma per me non darti pena, sono sempre positivo il mio numero è distintivo </risorsa>
+		<risposta>protone</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>di cosa si tratta?</indizio0>
+		<indizio1>costituisce il nucleo</indizio1>
+		<indizio2>il quanto di elettricità positiva</indizio2>
+		<indizio3>non decade e quindi la sua vita è eterna</indizio3>
+		<attesa1>30</attesa1>
+		<attesa2>60</attesa2>
+		<attesa3>90</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+		<autore>Lilla Mangano atomo carica meno</autore>
+	</domanda>	
+	
+	 <domanda>
+		<tipo>video</tipo>
+		<risorsa>immagini/colibrì.gif</risorsa>
+		<accuratezza>elevata</accuratezza>
+		<risposta>madre| la madre</risposta>
+		<indizio0>nel nido su un albero vivono due colibrì, uno grande e l'altro piccolo: il più piccolo è il figlio del colibrì più grande, ma questo non è suo padre; chi è allora?</indizio0>
+		<indizio1>il colibrì è l'uccello più piccolo del mondo; ne è stato misurato uno di 5 cm di lunghezza per 1,6 grammi di peso</indizio1>
+		<indizio2>riesce a sostare immobile sospeso grazie a un battito d’ali velocissimo</indizio2>
+		<indizio3>...ed ha due genitori, come tutti gli altri uccellini</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>45</bonus>
+		<tartaruga>20</tartaruga>
+ 		<autore>bs colibrì</autore>
+	</domanda>
+
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/parole1.jpg</risorsa>
+		<risposta>memoria</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>quale parola collega questi vocaboli?</indizio0>
+		<indizio1>quella dell'elefante è proverbiale</indizio1>
+		<indizio2>tutti vorrebbero averla di ferro</indizio2>
+		<indizio3>qualcuno c'è la fotografica</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs personaggi1</autore>
+	</domanda>	
+
+
+    <domanda>
+        <tipo>testo</tipo>
+        <risorsa>il numero di ore che intercorrono tra il 1/4/1987 00:00 e il 1/4/2000 23:59 (estremi compresi)</risorsa>
+        <risposta>114000</risposta>
+		<accuratezza>elevata</accuratezza>
+        <indizio0>fai attenzione ai bisestili</indizio0>
+        <indizio1>non vorrai mica calcolarlo a mano?!</indizio1>
+        <indizio2>usa uno strumento automatico</indizio2>
+        <indizio3>calcola la differenza di giorni tramite excel</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+        <autore>bs differnza oraria</autore>
+    </domanda>
+	
+	<domanda>
+        <tipo>testo</tipo>
+        <risorsa>unghia, diamante, fusto, cicala</risorsa>
+        <risposta>ancora | dell'ancora</risposta>
+		<accuratezza>elevata</accuratezza>
+        <indizio0>di cosa si parla?</indizio0>
+        <indizio1>aggiungo qualche parola: ceppo, marra</indizio1>
+        <indizio2>può spedare</indizio2>
+        <indizio3>un modello molto diffuso è detto Bruce</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+        <autore>bs ancora</autore>
+    </domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/cornice_cosa.jpg</risorsa>
+		<risposta>girl with balloon</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>what?</indizio0>
+		<indizio1>indubbiamente è una codifica strana</indizio1>
+		<indizio2>usa simboli non alfabetici al posto delle normali lettere</indizio2>
+		<indizio3>è per pochi eletti, una codifica di élite (1337)</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>109</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs leet</autore>
+	</domanda>
+	
+     <domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/numeri.jpg</risorsa>
+		<risposta>173561</risposta>
+		<indizio0>un numero</indizio0>
+		<indizio1>non ci sono errori!</indizio1>
+		<indizio2>quante dita ha un marziano?</indizio2>
+		<indizio3>usa la calcolatrice di Windows in modalità...</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs ottale</autore>
+	</domanda>
+	
+    <domanda>
+        <tipo>testo</tipo>
+        <risorsa>40.823226, 14.323818</risorsa>
+        <risposta>benedetto croce | croce</risposta>
+		<accuratezza>elevata</accuratezza>
+        <indizio0>fu scrittore e politico italiano</indizio0>
+        <indizio1>...anche filosofo e storico; collaborò con il Resto del Carlino</indizio1>
+        <indizio2>dai un'occhiata in giro... senza muoverti di casa</indizio2>
+        <indizio3>usa le coordinate in Google Maps</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>30</tartaruga>
+        <autore>bs benedetto croce su Maps</autore>
+    </domanda>	
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/signorsi.jpg</risorsa>
+		<accuratezza>approssimata</accuratezza>
+		<risposta>specchio | riflessa | ribaltata | capovolta | ruotata</risposta>
+		<indizio0>quando tutti sono d'accordo, quello è il momento di cambiare il proprio punto di vista!</indizio0>
+		<indizio1>la statistica ha la sua valenza</indizio1>
+		<indizio2>statisticamente c'è qualcosa che non va</indizio2>
+		<indizio3>osserva la scolaresca: quasi tutti mancini? la foto è...</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>30</tartaruga>
+ 		<autore>bs foto a specchio</autore>
+	</domanda>
+
+ 	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/iscrizione.jpg</risorsa>
+		<accuratezza>elevata</accuratezza>
+		<risposta>sator</risposta>
+		<indizio0>un'antica iscrizione</indizio0>
+		<indizio1>cerca una chiave di lettura e procedi come un treno</indizio1>
+		<indizio2>leggi da destra a sinistra e viceversa</indizio2>
+		<indizio3>un quadrato magico</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>119</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs iscrizione antica</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>audio</tipo>
+		<risorsa>audio/vdp.mp3</risorsa>
+		<accuratezza>approssimata</accuratezza>
+		<risposta>torrese</risposta>
+		<indizio0>la madre del protagonista è...</indizio0>
+		<indizio1>leggi il testo originale</indizio1>
+		<indizio2>la madre non è napoletana</indizio2>
+		<indizio3>è una provinciale...</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs De Pretore</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/isolanap.jpg</risorsa>
+		<risposta>sant'elena</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>una località...</indizio0>
+		<indizio1>fai il /refresh</indizio1>
+		<indizio2>fai il /refresh</indizio2>
+		<indizio3>fai il /refresh</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+		<autore>Anna Calemme Napoleone</autore>
+	</domanda>
+
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/stop.jpg</risorsa>
+		<risposta>murexbrandaris</risposta>
+		<accuratezza>indefinita</accuratezza>
+		<indizio0>l'anteprima è terminata</indizio0>
+		<indizio1>-----------------------</indizio1>
+		<indizio2>-----------------------</indizio2>
+		<indizio3>-----------------------</indizio3>
+		<attesa1>99999999</attesa1>
+		<attesa2>99999999</attesa2>
+		<attesa3>99999999</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs fine anteprima</autore>
+	</domanda>	
+
+	
+     <!-- FINE ANTEPRIMA -->
+
+
+  	<domanda>
+		<tipo>chiusura</tipo>
+		<risorsa>immagini/forziere.png</risorsa>
+		<risposta>
+complimenti hai trovato il tesoro!!!
+tramite l'e-mail della scuola manda un messaggio all'indirizzo admin@liceonobel.org con i dati anagrafici e la classe di appartenenza di tutti i componenti della squadra
+invia anche il codice di controllo
+		</risposta>
+		<indizio0>non disponibile</indizio0>
+		<indizio1>non disponibile</indizio1>
+		<indizio2>non disponibile</indizio2>
+		<indizio3>non disponibile</indizio3>
+		<autore>bs end</autore>
+  	</domanda>
+	
+</tesoro>

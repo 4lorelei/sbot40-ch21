@@ -1,0 +1,58 @@
+﻿<b>Legenda ed altre info:</b>
+
+🎡 <i>panoramica: rispondi con una frase</i>
+
+Indica che il bot, in fase di valutazione della risposta inviata, ignora le parole non pertinenti con la risposta esatta.
+Esempio:
+<i>Qual è la capitale della Francia?</i>
+<b>Risposta: </b><i>Roma Londra Parigi Vienna</i>
+<b>Esito: </b>La risposta è considerta corretta.
+
+
+🎢 <i>tornado: usa solo le parole giuste</i>
+
+Indica che il bot considera errata una risposta che contiene anche una sola parola non prevista nella risposta esatta.
+Esempio:
+<i>Qual è la capitale della Francia?</i>
+<b>Risposta: </b><i>Roma Londra Parigi Vienna</i>
+<b>Esito: </b>La risposta è considerta errata.
+
+
+🍭 <i>lollipop: xx minuti di bonus se superi il livello al primo tentativo</i>
+
+Indica che rispondendo in modo corretto al primo tentativo si conquista un bonus in minuti che si applica al <b>successivo livello</b>. Sul nuovo livello il tempo di attesa per ottenere gli aiuti si riduce del tempo indicato dal bonus rispetto ai tempi standard previsti per il livello.
+<b>I giocatori che partecipano in team hanno complessivamente un unico tentativo</b>, pertanto è presa in esame per il bonus esclusivamente la prima risposta del primo giocatore che fornisce la risposta.
+
+
+🐢 <i>tortuga: attendi xx secondi dopo ogni risposta errata</i>
+
+Indica che ogni singolo giocatore non può fornire risposte a ripetizione ma deve attendere alcuni secondi tra una risposta e la successiva. Eventuali risposte fornite prima che sia trascorso il tempo indicato, calcolato a partire dalla precedente risposta errata, non sono valutate dal bot ma non alterano il tempo di attesa.
+
+
+👍 <i>stai utilizzando un bonus di xx minuti</i>
+
+Indica che sul livello corrente il tempo di attesa per ottenere gli aiuti è ridotto rispetto al tempo standard del livello.
+
+
+🕑 <i>prossimo indizio alle hh:mm</i>
+
+Indica l'ora in cui si renderà disponibile il successivo aiuto. <b>In totale sono previsti tre differenti aiuti per ciascun livello</b>.
+L'ora indicata non tiene conto della successiva <b>sospensione</b> del gioco, fin quando essa non si verificherà. Può capitare che l'ora indicata cada in un intervallo in cui il gioco sarà sospeso; in questo caso alla ripresa del gioco l'ora sarà correttamente aggiornata tenendo conto del periodo di sospensione.
+
+
+<b>Risposte aperte:</b>
+
+In alcuni casi la risposta ad un gioco potrebbe  nascondere delle ambiguità riguardanti il formalismo o i termini usati.
+Ad esempio la data della scoperta dell'America potrebbe essere fornita nel formato "12/10/1492" oppure nel formato "12 ottobre 1492".
+In questi casi il bot è predisposto per accettare più risposte differenti.
+
+
+<b>Sospensione del gioco:</b>
+
+Nella fascia oraria in cui il gioco è sospeso, il tempo di attesa per ottenere gli aiuti si congela. Alla ripresa del gioco i tempi di attesa sono ricalcolati per ciascun giocatore o team, escludendo l'intero intervallo di sospensione. 
+
+
+<b>Gestione dei team:</b>
+
+I team possono essere formati e modificati prima dell'inizio del gioco e, per un periodo limitato, durante la gara.
+Quando un team supera il livello 25, la formazione non può più essere modificata e quindi non possono più essere inseriti giocatori né i giocatori presenti possono uscire dal team. 
