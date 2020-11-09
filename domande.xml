@@ -3,8 +3,6 @@
 	<domanda>
 		<tipo>testo</tipo>
 		<risorsa>
-Benvenuto nell'anteprima di Chestnut!
-
 Puoi prendere visione del regolamento della caccia al tesoro toccando il pulsante "about".
 
 La gara avrà inizio il giorno xxxxxx alle ore 14:30, nel frattempo puoi prendere familiarità con l'app partecipando all'anteprima di Chestnut.
@@ -18,7 +16,7 @@ Tocca il pulsante "indizi" per continuare.
 		<risposta>ok</risposta>
 		<accuratezza>approssimata</accuratezza>
 		<indizio0>conferma inviando il messaggio "OK"</indizio0>
-		<indizio1>non disponibile</indizio1> 
+		<indizio1>non disponibile</indizio1>
 		<indizio2>non disponibile</indizio2>
 		<indizio3>non disponibile</indizio3>
 		<attesa1>99999999</attesa1>
@@ -228,7 +226,7 @@ ricorda che puoi ricominciare l'anteprima dall'inizio in qualsiasi momento invia
 
 	<domanda>
 		<tipo>immagine</tipo>
-		<risorsa>immagini/mp3.jpg</risorsa>
+		<risorsa>immagini/parole1.jpg</risorsa>
 		<risposta>memoria</risposta>
 		<accuratezza>elevata</accuratezza>
 		<indizio0>quale parola collega questi vocaboli?</indizio0>
