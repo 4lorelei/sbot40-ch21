@@ -4,11 +4,12 @@ $star_code = 0x2605;
 setlocale(LC_TIME, 'it_IT');
 date_default_timezone_set('Europe/Rome');
 $content = file_get_contents("php://input");
-$update = json_decode($content, true); 
+$update = json_decode($content, true);
 if(!$update)
 {
   exit;
 }
+mylog($update, 'call.txt', 0);
 //Versione
 //LaraLuu ver. 4.0 evo 06/02/2019
 //Token
