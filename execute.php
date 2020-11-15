@@ -9,7 +9,6 @@ if(!$update)
 {
   exit;
 }
-mylog($content, 'call.txt', 0);
 //Versione
 //LaraLuu ver. 4.0 evo 06/02/2019
 //Token
