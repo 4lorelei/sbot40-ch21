@@ -42,7 +42,7 @@ Tocca il pulsante "indizi" per continuare.
 	<domanda>
 		<tipo>link</tipo>
 		<risorsa>http://ec2-34-220-139-221.us-west-2.compute.amazonaws.com</risorsa>
-		<risposta>***nonsense</risposta>
+		<risposta>*++*nonsense</risposta>
 		<accuratezza>indefinita</accuratezza>
 		<indizio0>gioca e totalizza almeno 1000 punti
 tocca il link
