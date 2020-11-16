@@ -4315,7 +4315,7 @@ if(strpos($text, '/help') !== false)
 	
 	$response = $response . $indizio[0] . "\n";
 	
-	if (!($tipo_risp_corr == "sequenza"))
+	if (!($tipo_risp_corr == "sequenza") && !($tipo_risp_corr == "link"))
 	{
 		// fornisce gli indizi per il livello corrente coerentemente con le abilitazioni
 		if (abilitazione_livello($attesa_aiuto1, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
@@ -4324,6 +4324,16 @@ if(strpos($text, '/help') !== false)
 			$response = $response . "\n" . $indizio[2]. "\n";
 		if (abilitazione_livello($attesa_aiuto3, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
 			$response = $response . "\n" . $indizio[3]. "\n";
+	}
+	else if ($tipo_risp_corr == "link")
+	{
+		// fornisce gli indizi per il livello corrente coerentemente con le abilitazioni
+		if (abilitazione_livello($attesa_aiuto3, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
+			$response = $response . "\n" . $indizio[3]. "\n";
+		else if (abilitazione_livello($attesa_aiuto2, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
+			$response = $response . "\n" . $indizio[2]. "\n";
+		else if (abilitazione_livello($attesa_aiuto1, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
+			$response = $response . "\n" . $indizio[1]. "\n";
 	}
 			
 	//prossimo aiuto
@@ -4960,6 +4970,27 @@ if(($risEsatta==true)||($eccezione == true))
 	if(strcmp($tipo, "testo") === 0)
 	{
 		$ch = curl_init();
+		$myUrl=$botUrlMessage . "?chat_id=" . $chatId . "&text=" . urlencode($risorsa);
+		curl_setopt($ch, CURLOPT_URL, $myUrl); 
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
+		
+		// read curl response
+		$output = curl_exec($ch);
+		curl_close($ch);
+		exit();
+		
+		/* Modo alternativo
+		$parameters = array('chat_id' => $chatId, "text" => $risorsa);
+		$parameters["method"] = "sendMessage";
+		echo json_encode($parameters);
+		exit();
+		*/
+	}
+	if(strcmp($tipo, "link") === 0)
+	{
+		$ch = curl_init();
+		$risorsa_con_id = $risorsa;
+		$risorsa_con_id = $risorsa_con_id . "?id=" . $chatId;
 		$myUrl=$botUrlMessage . "?chat_id=" . $chatId . "&text=" . urlencode($risorsa);
 		curl_setopt($ch, CURLOPT_URL, $myUrl); 
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 

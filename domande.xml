@@ -38,6 +38,25 @@ Tocca il pulsante "indizi" per continuare.
 	<!-- (la voirgola è significativa) -->
 	
      <!-- INIZIO ANTEPRIMA -->
+
+	<domanda>
+		<tipo>link</tipo>
+		<risorsa>http://ec2-34-220-139-221.us-west-2.compute.amazonaws.com</risorsa>
+		<risposta>***nonsense</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>gioca e totalizza almeno 1000 punti
+tocca il link
+                </indizio0>
+		<indizio1>bonus=200</indizio1>
+		<indizio2>bonus=400</indizio2>
+		<indizio3>bonus=600</indizio3>
+		<attesa1>2</attesa1>
+		<attesa2>4</attesa2>
+		<attesa3>6</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs link</autore>
+	</domanda>	
 	 
 	 <domanda>
 		<tipo>immagine</tipo>
