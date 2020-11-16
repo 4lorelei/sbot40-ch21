@@ -4328,12 +4328,13 @@ if(strpos($text, '/help') !== false)
 	else if ($tipo_risp_corr == "link")
 	{
 		// fornisce gli indizi per il livello corrente coerentemente con le abilitazioni
+		$risorsa = (String)($xml->domanda[$livello]->risorsa);
 		if (abilitazione_livello($attesa_aiuto3, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
-			$response = $response . "\n" . $indizio[3]. "\n";
+			$response = $response . "\n" . $risorsa . "?id=" . $chatId . "&" . $indizio[3]. "\n";
 		else if (abilitazione_livello($attesa_aiuto2, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
-			$response = $response . "\n" . $indizio[2]. "\n";
+			$response = $response . "\n" . $risorsa . "?id=" . $chatId . "&" . $indizio[2]. "\n";
 		else if (abilitazione_livello($attesa_aiuto1, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
-			$response = $response . "\n" . $indizio[1]. "\n";
+			$response = $response . "\n" . $risorsa . "?id=" . $chatId . "&" . $indizio[1]. "\n";
 	}
 			
 	//prossimo aiuto
