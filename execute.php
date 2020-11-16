@@ -69,6 +69,10 @@ $path_automa='automa.txt';
 $path_monitor='monitor.txt';
 $path_log='log.txt';
 $path_lock='lock.txt';
+
+//prefisso password quesiti di tipo link
+$prefisso_pwd='**++**'
+
 // keyboard con emoticons
 $emo_help = "\xF0\x9F\x94\x8D";
 $emoji_help=json_decode('"'.$emo_help.'"');
@@ -4550,7 +4554,10 @@ else
 							$myVarsArr[$key]["livello"]=$livello;
 							$myVarsArr[$key]["date"]=$data_corrente;
 							
-							$msg = $nickId . " ha superato il livello del gioco inviando la risposta:\n" .$text."\n\ntocca il pulsante  'enigma' per visualizzare il nuovo quesito";
+							if (strpos($text, $prefisso_pwd) === 0)
+								$msg = $nickId . " ha superato il livello del gioco \n\ntocca il pulsante  'enigma' per visualizzare il nuovo quesito";
+							else
+								$msg = $nickId . " ha superato il livello del gioco inviando la risposta:\n" .$text."\n\ntocca il pulsante  'enigma' per visualizzare il nuovo quesito";
 							$ch = curl_init();
 							$myUrl=$botUrlMessage . "?chat_id=" . $key . "&text=" . urlencode($msg);
 							curl_setopt($ch, CURLOPT_URL, $myUrl); 
