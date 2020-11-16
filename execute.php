@@ -4991,7 +4991,7 @@ if(($risEsatta==true)||($eccezione == true))
 		$ch = curl_init();
 		$risorsa_con_id = $risorsa;
 		$risorsa_con_id = $risorsa_con_id . "?id=" . $chatId;
-		$myUrl=$botUrlMessage . "?chat_id=" . $chatId . "&text=" . urlencode($risorsa);
+		$myUrl=$botUrlMessage . "?chat_id=" . $chatId . "&text=" . urlencode($risorsa_con_id);
 		curl_setopt($ch, CURLOPT_URL, $myUrl); 
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
 		
