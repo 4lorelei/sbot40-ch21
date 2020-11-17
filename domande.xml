@@ -36,27 +36,13 @@ Tocca il pulsante "indizi" per continuare.
 	
 	<!-- Caratteri significativi in tornado a-zA-Z0-9-+*:><=.,èéàòùì -->
 	<!-- (la voirgola è significativa) -->
+
+        <!-- Password nei giochi di tipo link: deve iniziare con x_____                      -->
+	<!-- Link iniziale (senza aiuti) del tipo: http://www.gioco.com?id=1234              -->
+        <!-- Link con indizio del tipo: http://www.gioco.com?id=1234&bonus=200&ck=123456     -->
+        <!-- Calcolo del checksum: md5("id=1234&bonus=200_____")(i primi 6 caratteri da sinistra) -->
 	
      <!-- INIZIO ANTEPRIMA -->
-
-	<domanda>
-		<tipo>link</tipo>
-		<risorsa>http://ec2-34-220-139-221.us-west-2.compute.amazonaws.com</risorsa>
-		<risposta>x_____nonsense</risposta>
-		<accuratezza>indefinita</accuratezza>
-		<indizio0>gioca e totalizza almeno 1000 punti
-tocca il link
-                </indizio0>
-		<indizio1>bonus=200</indizio1>
-		<indizio2>bonus=400</indizio2>
-		<indizio3>bonus=600</indizio3>
-		<attesa1>2</attesa1>
-		<attesa2>4</attesa2>
-		<attesa3>6</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs link</autore>
-	</domanda>	
 	 
 	 <domanda>
 		<tipo>immagine</tipo>
@@ -81,7 +67,26 @@ le carte segnate...</indizio1>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs panoramica</autore>
-	</domanda>	
+	</domanda>
+
+	<domanda>
+		<tipo>link</tipo>
+		<risorsa>http://ec2-34-220-139-221.us-west-2.compute.amazonaws.com</risorsa>
+		<risposta>x_____nonsense</risposta>
+		<accuratezza>indefinita</accuratezza>
+		<indizio0>gioca e totalizza almeno 1000 punti
+tocca il link
+                </indizio0>
+		<indizio1>bonus=200</indizio1>
+		<indizio2>bonus=400</indizio2>
+		<indizio3>bonus=600</indizio3>
+		<attesa1>2</attesa1>
+		<attesa2>4</attesa2>
+		<attesa3>6</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs link</autore>
+	</domanda>		
 	
 	<domanda>
 		<tipo>immagine</tipo>
