@@ -268,6 +268,14 @@ if (!isset($idADMIN))
 	
 	exit();
 }
+
+
+
+$xx=hash("sha256", (string)$chatId . "cicciolina");
+mylog($xx, "hash.txt", $chatId);
+
+
+
 	
 //ottiene lo stato del gioco: da_avviare, terminato, in_pausa, da_ripristinare, in_esecuzione
 //(è memorizzato nel file amministratore.txt)
