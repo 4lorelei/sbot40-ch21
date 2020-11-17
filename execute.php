@@ -269,14 +269,6 @@ if (!isset($idADMIN))
 	exit();
 }
 
-
-
-$xx=hash("sha256", (string)$chatId . "cicciolina");
-mylog($xx, "hash.txt", $chatId);
-
-
-
-	
 //ottiene lo stato del gioco: da_avviare, terminato, in_pausa, da_ripristinare, in_esecuzione
 //(è memorizzato nel file amministratore.txt)
 $statoGioco=$amministratore['stato_gioco'];
@@ -4341,12 +4333,28 @@ if(strpos($text, '/help') !== false)
 	{
 		// fornisce gli indizi per il livello corrente coerentemente con le abilitazioni
 		$risorsa = (String)($xml->domanda[$livello]->risorsa);
-		if (abilitazione_livello($attesa_aiuto3, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
-			$response = $response . "\n" . $indizio[3] . "\n" . $risorsa . "?id=" . $chatId . "&" . $indizio[3] . "\n";
-		else if (abilitazione_livello($attesa_aiuto2, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
-			$response = $response . "\n" . $indizio[2] . "\n" . $risorsa . "?id=" . $chatId . "&" . $indizio[2] . "\n";
-		else if (abilitazione_livello($attesa_aiuto1, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare))
-			$response = $response . "\n" . $indizio[1] . "\n" . $risorsa . "?id=" . $chatId . "&" . $indizio[1] . "\n";
+
+		$myhash=hash("sha256", (string)$chatId . "cicciolina");
+		$xx=hash("sha256", (string)$chatId . "cicciolina");
+$xx=substr($xx, 0, 6);
+mylog($xx, "hash.txt", $chatId);
+
+		if (abilitazione_livello($attesa_aiuto3, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare)){
+			$myhash=hash("sha256", (string)"id=" . $chatId . "&" . $indizio[3] . "_____");
+            $xx=substr($myhash, 0, 6);
+			$response = $response . "\n" . $indizio[3] . "\n" . $risorsa . "?id=" . $chatId . "&" . $indizio[3] . "&ck=" . $xx . "\n";
+		}
+		else if (abilitazione_livello($attesa_aiuto2, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare)){
+			$myhash=hash("sha256", (string)"id=" . $chatId . "&" . $indizio[2] . "_____");
+            $xx=substr($myhash, 0, 6);
+			$response = $response . "\n" . $indizio[2] . "\n" . $risorsa . "?id=" . $chatId . "&" . $indizio[2] . "&ck=" . $xx . "\n";
+		}
+		else if (abilitazione_livello($attesa_aiuto1, $myVarsArr[$chatId]["date"] , $data_break_sleep, $data_break_go, $CLOCK, $bonus_da_applicare)){
+			$myhash=hash("sha256", (string)"id=" . $chatId . "&" . $indizio[1] . "_____");
+            $xx=substr($myhash, 0, 6);
+			$response = $response . "\n" . $indizio[1] . "\n" . $risorsa . "?id=" . $chatId . "&" . $indizio[1] . "&ck=" . $xx . "\n";
+		}
+			
 	}
 			
 	//prossimo aiuto
