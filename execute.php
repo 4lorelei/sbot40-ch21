@@ -71,7 +71,7 @@ $path_log='log.txt';
 $path_lock='lock.txt';
 
 //prefisso password quesiti di tipo link
-$prefisso_pwd='_____';
+$prefisso_pwd='x_____';
 
 // keyboard con emoticons
 $emo_help = "\xF0\x9F\x94\x8D";
