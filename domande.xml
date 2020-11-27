@@ -121,13 +121,13 @@ Tocca il pulsante "indizi" per continuare.
 		<accuratezza>elevata</accuratezza>
 		<indizio0>il display della mia calcolatrice è difettoso: si accendono solo i segmenti orizzontali e i punti mentre restano spenti i segmenti verticali
 		
-		eseguo in successione quattro volte la stessa operazione e ottengo i risultati che vedi
+a partire dal numero che già compariva sul display (stato 1) eseguo in successione quattro volte la stessa operazione e ottengo i risultati che vedi
 		
-		quale operazione ho fatto ogni volta?
+quale operazione ho fatto ogni volta?
 (indica i tasti che che ho premuto sulla tastiera della calcolatrice per eseguire una singola operazione, come illustrato in questi esempi: +2= oppure x13= oppure :3= ecc.)
 		</indizio0>
-		<indizio1>il risultato mostrato al passo 2 è composto da due differenti cifre</indizio1>
-		<indizio2>il risultato mostrato al passo 3 è composto da tre differenti cifre</indizio2>
+		<indizio1>il risultato mostrato in corrisponenza dello stato 2 è composto da due differenti cifre</indizio1>
+		<indizio2>il risultato mostrato in corrisponenza dello stato 3 è composto da tre differenti cifre</indizio2>
 		<indizio3>il numero inziale è 5</indizio3>
 		<attesa1>60</attesa1>
 		<attesa2>90</attesa2>
@@ -140,7 +140,7 @@ Tocca il pulsante "indizi" per continuare.
 	<domanda>
 		<tipo>sequenza</tipo>
 		<risorsa>immagini/bandiere.jpg</risorsa>
-		<risposta>bianco blu rosso</risposta>
+		<risposta>bianco blu rosso | bianco blue rosso</risposta>
 		<accuratezza>elevata</accuratezza>
 		<indizio0>se quella in alto è la bandiera di Palau, quali sono i colori della bandiera in basso?
 		</indizio0>
@@ -180,8 +180,7 @@ Tocca il pulsante "indizi" per continuare.
 		<accuratezza>elevata</accuratezza>
 		<indizio0>il fascino delle Dolomiti: chi più alto sale, meglio vede; chi meglio vede, volge lo sguardo sulla valle che è in basso
 		</indizio0>
-		<indizio1>le cime dei "monti pallidi", quando il sole le attraversa, si riflettono sul manto innevato con ombre che si allungano a dismisura
-</indizio1>
+		<indizio1>le cime dei "monti pallidi", quando il sole le attraversa, si riflettono sul manto innevato con ombre che si allungano a dismisura</indizio1>
 		<indizio2>le ombre dei monti sono come tessere rovesciate, che raccontano del tempo che fugge via</indizio2>
 		<indizio3>affidati alla ragione e concentrati su una sola regione</indizio3>
 		<attesa1>60</attesa1>

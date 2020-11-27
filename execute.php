@@ -816,7 +816,7 @@ if(strpos($text, '/list') !== false && $utenteAdmin === true)
 	$msg = $msg . "/admin Id\n    nuovo admin\n";
 	$msg = $msg . "/match:\n    /match start [-s]  (inizio gara)\n    /match go [-s]  (restart gara)\n    /match sleep [-s]  (in pausa)\n    /match end [-s]  (fine gara)\n    /match status   (statistiche)\n";
 	$msg = $msg . "    /match start -t [data ora]\n    /match go -t [data ora]\n    /match sleep -t [data ora]\n    /match end -t [data ora]\n";
-	$msg = $msg . "/config:\n    /config maxteam num\n    /config answer a|r\n    /config clock on|off\n    /config managetean liv\n    /config zerocmd on|off\n";
+	$msg = $msg . "/config:\n    /config maxteam num\n    /config answer a|r\n    /config clock on|off\n    /config manageteam liv\n    /config zerocmd on|off\n";
 	$msg = $msg . "/enable:\n    /enable liv t1 t2 t3\n    /enable -liv t1 t2 t3\n     t1 t2 t3 tempi in min\n";
 	$msg = $msg . "/identity Id | nick | team\n    identifica utente o team\n";
 	$msg = $msg . "/lnext livello\n    avanza gli utenti del livello\n";
