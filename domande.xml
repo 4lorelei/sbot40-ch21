@@ -418,7 +418,7 @@ cosa richiama esplicitamente il video?</indizio0>
 	<domanda>
 		<tipo>sequenza</tipo>
 		<risorsa>immagini/collage2.jpg</risorsa>
-		<risposta>blu | blue</risposta>
+		<risposta>sette | 7</risposta>
 		<accuratezza>elevata</accuratezza>
 		<indizio0>quale parola collega tutte le immagini del collage?</indizio0>
 		<indizio1>sequenza</indizio1>
