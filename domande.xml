@@ -728,10 +728,27 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 	
 	<domanda>
 		<tipo>immagine</tipo>
-		<risorsa>immagini/serpentone3.jpg</risorsa>
+		<risorsa>immagini/serpentone2.jpg</risorsa>
 		<risposta>cartamodello</risposta>
 		<accuratezza>elevata</accuratezza>
 		<indizio0>rispondi con la parola che compare nel serpentone</indizio0>
+		<indizio1>---T------LO</indizio1>
+		<indizio2>---T-M----LO</indizio2>
+		<indizio3>C--T-M----LO</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs serpentone 1</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/serpentone3.jpg</risorsa>
+		<risposta>arcobalenodisegnato | arcobaleno disegnato</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>rispondi con il testo che compare nel serpentone</indizio0>
 		<indizio1>A--O----N---------O</indizio1>
 		<indizio2>A--OB---N---------O</indizio2>
 		<indizio3>A--OB---N---SE----O</indizio3>
