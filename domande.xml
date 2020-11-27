@@ -695,7 +695,7 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 	<domanda>
 		<tipo>immagine</tipo>
 		<risorsa>immagini/eroi.jpg</risorsa>
-		<risposta>2+1+3+6=12 | 3+6+2+1=12 | 3+9=12 | 9+3=12</risposta>
+		<risposta>the boys</risposta>
 		<accuratezza>elevata</accuratezza>
 		<indizio0>di cosa si tratta?</indizio0>
 		<indizio1>sono sette</indizio1>
