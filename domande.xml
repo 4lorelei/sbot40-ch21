@@ -64,7 +64,7 @@ Tocca il pulsante "indizi" per continuare.
 	<domanda>
 		<tipo>documento</tipo>
 		<risorsa>documenti/film.pdf</risorsa>
-		<risposta>bg</risposta>
+		<risposta>il gladiatore | gladiator</risposta>
 		<accuratezza>elevata</accuratezza>
 		<indizio0>il titolo del film celato all'interno del documento</indizio0>
 		<indizio1>l'apparenza inganna</indizio1>
