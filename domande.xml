@@ -794,7 +794,39 @@ riporta, senza spazi, il calcolo che porta alla soluzione
  		<autore>bs word puzzle animali</autore>
 	</domanda>
 	
-
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/angular.jpg</risorsa>
+		<risposta>(1, 90) | (1, 𝛑/2)</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>analogie</indizio0>
+		<indizio1>l'orso nero vive in un contesto rettangolare</indizio1>
+		<indizio2>il sistema cartesiano è detto anche rettangolare</indizio2>
+		<indizio3>l'orso bianco vive in un contesto polare</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Calemme angular</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/scienziati.jpg</risorsa>
+		<risposta>Heisenberg Schrödinger |  Heisenberg Schrodinger</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>barzelletta</indizio0>
+		<indizio1>sono due scienziati</indizio1>
+		<indizio2>c'entra il principio di indeterminazione</indizio2>
+		<indizio3>...ed anche l'esperimento paradossale sui gatti del 1935</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Calemme scienziati</autore>
+	</domanda>
 	
   	<domanda>
 		<tipo>chiusura</tipo>
