@@ -37,7 +37,7 @@ Tocca il pulsante "indizi" per continuare.
 	<!-- (la voirgola è significativa) -->
 
         <!-- Password nei giochi di tipo link: deve iniziare con x_____                      -->
-	<!-- Link iniziale (senza aiuti) del tipo: http://www.gioco.com?id=1234              -->
+	<!-- Link iniziale (senza aiuti) del tipo: http://www.gioco.com?id=1234               -->
         <!-- Link con indizio del tipo: http://www.gioco.com?id=1234&bonus=200&ck=123456     -->
         <!-- Calcolo del checksum: md5("id=1234&bonus=200_____")(i primi 6 caratteri da sinistra) -->
 	
