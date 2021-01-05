@@ -61,7 +61,7 @@ Per rispondere è sufficiente digitare la risposta che si ritiene corretta e inv
 2. Quando viene considerata corretta una risposta?
 La valutazione della risposta da parte del bot è articolata e dipende da una serie di circostanze illustrate di seguito:
 
-- La risposta inviata contiene più di 50 caratteri (spazi inclusi): 
+- La risposta inviata contiene più di 100 caratteri (spazi inclusi): 
 la risposta inviata non viene valutata
 
 - Tra gli indizi compare l'indicazione <🎡 panoramica: rispondi con una frase>: 

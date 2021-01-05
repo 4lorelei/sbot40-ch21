@@ -3854,7 +3854,7 @@ if(strpos($text, '/team') !== false)
 		}
 		else 
 		{
-			$response = "sei associato al team " . $team . "\n\ncompisizione del team:\n";
+			$response = "sei associato al team " . $team . "\n\ncomposizione del team:\n";
 			foreach ($myVarsArr as $key => $value)
 			{
 				if ($myVarsArr[$key]["team"]==$team)
@@ -5150,7 +5150,7 @@ else
 	{
 		if (substr($text, 0, 1)=="/")
 			$response='comando non riconosciuto';
-		else if(strlen($text)>50)
+		else if(strlen($text)>100)
 			$response='il testo inserito è troppo lungo e la risposta non è stata verificata, riprova...';
 		else
 			$response='non è la risposta giusta, riprova...';
@@ -5258,10 +5258,10 @@ function prossimo_aiuto($tempo_attesa, $data_livello, $data_sleep, $data_go, $ge
 }
 // il confronto è case unsensitive, l'apostrofo e altri caratteri partcolari sono sostituiti con spazio
 // la risposta data deve contenere tutte le parole previste nelle risposta esatta
-// una risposta > 50 caratteri è considerata errata
+// una risposta > 100 caratteri è considerata errata
 function risposta_esatta_old($risposta, $esatta)
 {
-	if (strlen($risposta)> 50)
+	if (strlen($risposta)> 100)
 		return false;
 	
 	$risposta = preg_replace('/[^a-zA-Z0-9-+*:><=.,èéàòù]/', ' ', $risposta);
@@ -5294,7 +5294,7 @@ function risposta_esatta_old($risposta, $esatta)
 }
 function risposta_esatta($risposta, $esatta, $accuratezza)
 {
-	if (strlen($risposta)> 50)
+	if (strlen($risposta)> 100)
 		return false;
 	
 	$esatta=str_replace("|", " | ", $esatta);
