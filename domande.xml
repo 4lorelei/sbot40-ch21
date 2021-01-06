@@ -3,12 +3,10 @@
 	<domanda>
 		<tipo>testo</tipo>
 		<risorsa>
-Benvenuto nell'anteprima di Chestnut 2021!!!
+Benvenuto in Chestnut 2021!!!
 
-La gara avrà inizio il giorno 7 gennaio 2021 alle ore 14:30, nel frattempo puoi prendere familiarità con l'app partecipando a questa anteprima.
-Il punteggio che conquisti in questa fase NON è significativo ai fini della gara!
-Ti consiglio di impostare fin da subito il tuo nickname e di effettuare la registrazione anagrafica. Inoltre, se vuoi gareggiare insieme ad alcuni amici della scuola, puoi formare una squadra in modo da essere pienamente operativo alla partenza della gara.
-Puoi ricomnciare l'anteprima dall'inizio in qualsiasi momento inviando il messaggio /zero (devi includere anche il carratere /). 
+Chestnut è una gara riservata agli studenti del liceo Nobel.
+Per essere incluso nella classifica ufficiale devi impostare il nickname ed effettuare la registrazione anagrafica.
 
 @InsideChestnut2021 è il canale ufficiale della caccia al tesoro: unisciti al canale per prendere visione del regolamento e restare sempre aggiornato.
 
@@ -35,513 +33,23 @@ Tocca il pulsante "indizi" per continuare.
 	
 	<!-- Caratteri significativi in tornado a-zA-Z0-9-+*:><=.,èéàòùì -->
 	<!-- (la voirgola è significativa) -->
-
-        <!-- Password nei giochi di tipo link: deve iniziare con x_____                      -->
-	<!-- Link iniziale (senza aiuti) del tipo: http://www.gioco.com?id=1234               -->
-        <!-- Link con indizio del tipo: http://www.gioco.com?id=1234&bonus=200&ck=123456     -->
-        <!-- Calcolo del checksum: md5("id=1234&bonus=200_____")(i primi 6 caratteri da sinistra) -->
 	
-     <!-- INIZIO ANTEPRIMA -->
+
+    <!-- Password nei giochi di tipo link: deve iniziare con x_____                      -->
+	<!-- Link iniziale (senza aiuti) del tipo: http://www.gioco.com?id=1234              -->
+    <!-- Link con indizio del tipo: http://www.gioco.com?id=1234&bonus=200&ck=123456     -->
+    <!-- Calcolo del checksum: md5("id=1234&bonus=200_____")(i primi 6 caratteri da sinistra) -->
+	
+    <!-- INIZIO ANTEPRIMA -->
 	 
-	 <domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/anagramma.jpg</risorsa>
-		<risposta>due tre | 2 3</risposta>
-		<accuratezza>approssimata</accuratezza>
-		<indizio0>quali carte hanno il dorso "segnato"?
-risolvi l’anagramma e lo saprai
-
-
-suggerimento:
-la presenza della ruota panoramica tra gli indizi rivela che il bot valuta la risposta ignorando le parole in più, anche quelle sbagliate
-
-...in questo caso puoi rispondere elencando tutte le carte e superare il livello anche senza risolvere l'anagramma</indizio0>
-		<indizio1>l'anagramma inizia così:
-le carte segnate...</indizio1>
-		<indizio2>le carte segnate sono...</indizio2>
-		<indizio3>le carte segnate sono il due e il...</indizio3>
-		<attesa1>5</attesa1>
-		<attesa2>7</attesa2>
-		<attesa3>9</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs panoramica</autore>
-	</domanda>	
-	
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/cani.jpg</risorsa>
-		<risposta>lorenzo lilli | lorenzo e lilli</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>individua la coppia intrusa
-
-suggerimento:
-poiché tra gli indizi compare l'emoticon della montagna russa (tornado), nella risposta dovrai indicare solo le parole che compongono la risposta esatta
-
-per risolvere questo enigma, ad ogni tentativo dovrai limitarti ad indicare una singola coppia
-</indizio0>
-		<indizio1>Tom e Franco sono identici</indizio1>
-		<indizio2>Sally e Bernarda sono "lisce"</indizio2>
-		<indizio3>Tullio e Ralph hanno lo stesso sguardo</indizio3>
-		<attesa1>5</attesa1>
-		<attesa2>7</attesa2>
-		<attesa3>9</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs tornado</autore>
-	</domanda>	
-	
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/america.jpg</risorsa>
-		<risposta>venerdì | venerdi</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>In quale giorno della settimana fu scoperta l'America?
-
-suggerimento:
-un bel vantaggio se indovini al primo tentativo!
-la presenza del lollipop tra gli indizi indica che rispondendo correttamente al primo tentativo riceverai un bonus in minuti:
-se riesci, sul prossimo livello l'attesa per ricevere gli indizi si riduce rispetto al tempo standard
-		</indizio0>
-		<indizio1>è un giorno feriale</indizio1>
-		<indizio2>corrisponde con il nome dell'aborigeno cui Robinson Crusoe salva la vita</indizio2>
-		<indizio3>è il giorno dedicato alla dea dell'amore</indizio3>
-		<attesa1>5</attesa1>
-		<attesa2>7</attesa2>
-		<attesa3>9</attesa3>
-		<bonus>4</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs lollipop</autore>
-	</domanda>	
-	
-	<domanda>
-		<tipo>sequenza</tipo>
-		<risorsa>immagini/lennon.jpg</risorsa>
-		<risposta>lennon | john lennon</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>chi è il personaggio della caricatura?
-
-suggerimento:
-rifletti prima di rispondere! 
-quando compare l'emoticon di tortuga tra gli indizi, non puoi rispondere a ripetizione ma devono passare alcuni secondi tra una risposta e l'altra 
-		</indizio0>
-		<indizio1>sequenza</indizio1>
-		<indizio2>sequenza</indizio2>
-		<indizio3>sequenza</indizio3>
-		<attesa1>5</attesa1>
-		<attesa2>7</attesa2>
-		<attesa3>9</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>20</tartaruga>
- 		<autore>bs tortuga</autore>
-	</domanda>	
-	
-	
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/teseo.jpg</risorsa>
-		<risposta>filo di Arianna | gomitolo di lana | filo di lana | segue il filo | riavvolge il filo | srotola il filo | seguendo il filo | riavvolgendo il filo | srotolando il filo</risposta>
-		<accuratezza>approssimata</accuratezza>
-		<indizio0>Teseo come riuscì a trovare l'uscita del labirinto?
-		
-suggerimento:
-descrivi con una frase la strategia utilizzata da Teseo
-il bot riconosce come valide più risposte diverse</indizio0>
-		<indizio1>Teseo era innamorato di Arianna</indizio1>
-		<indizio2>il nome di Arianna è collegato ad un celebre mito</indizio2>
-		<indizio3>Pollicino nella famosa fiaba trova la strada del ritorno grazie alle briciole che aveva disseminato, Teseo si organizza diversamente...</indizio3>
-		<attesa1>3</attesa1>
-		<attesa2>5</attesa2>
-		<attesa3>7</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs risposta aperta</autore>
-	</domanda>	
+	<!-- FINE ANTEPRIMA -->
 
 	<domanda>
 		<tipo>immagine</tipo>
-		<risorsa>immagini/ruote2.jpg</risorsa>
-		<risposta>4500</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>se la ruota verde fa 3000 giri, quanti ne fa la ruota rossa?
-		
-suggerimento:
-ricorda che puoi ricominciare l'anteprima dall'inizio in qualsiasi momento inviando il messaggio /zero
-		</indizio0>
-		<indizio1>concentrati sulla prima e sull'ultima ruota</indizio1>
-		<indizio2>la ruota verde ha 36 denti</indizio2>
-		<indizio3>...e quella rossa ne ha 24</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>89</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs ruote 2:3</autore>
-	</domanda>	
-	
-	<domanda>
-		<tipo>video</tipo>
-		<risorsa>video/joker.mp4</risorsa>
-		<risposta>ossimetro | saturimetro | pulsossimetro </risposta>
-		<accuratezza>approssimata</accuratezza>
-		<indizio0>The Dark Knight - Joker and Two-Face hospital scene... qualcosa non va!!!</indizio0>
-		<indizio1>fai attenzione alle immagini</indizio1>
-		<indizio2>al lancio della moneta</indizio2>
-		<indizio3>è un errore cinematografico</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>89</bonus>
-		<tartaruga>0</tartaruga>
-		<autore>bs Joker</autore>
-    </domanda>
-
-	<domanda>
-		<tipo>testo</tipo>
-		<risorsa> sono al centro della scena ma per me non darti pena, sono sempre positivo il mio numero è distintivo </risorsa>
-		<risposta>protone</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>di cosa si tratta?</indizio0>
-		<indizio1>costituisce il nucleo</indizio1>
-		<indizio2>il quanto di elettricità positiva</indizio2>
-		<indizio3>non decade e quindi la sua vita è eterna</indizio3>
-		<attesa1>30</attesa1>
-		<attesa2>60</attesa2>
-		<attesa3>90</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
-		<autore>Lilla Mangano atomo carica meno</autore>
-	</domanda>	
-	
-	 <domanda>
-		<tipo>video</tipo>
-		<risorsa>immagini/colibrì.gif</risorsa>
-		<accuratezza>elevata</accuratezza>
-		<risposta>madre| la madre</risposta>
-		<indizio0>nel nido su un albero vivono due colibrì, uno grande e l'altro piccolo: il più piccolo è il figlio del colibrì più grande, ma questo non è suo padre; chi è allora?</indizio0>
-		<indizio1>il colibrì è l'uccello più piccolo del mondo; ne è stato misurato uno di 5 cm di lunghezza per 1,6 grammi di peso</indizio1>
-		<indizio2>riesce a sostare immobile sospeso grazie a un battito d’ali velocissimo</indizio2>
-		<indizio3>...ed ha due genitori, come tutti gli altri uccellini</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>45</bonus>
-		<tartaruga>20</tartaruga>
- 		<autore>bs colibrì</autore>
-	</domanda>
-
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/parole1.jpg</risorsa>
-		<risposta>memoria</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>quale parola collega questi vocaboli?</indizio0>
-		<indizio1>quella dell'elefante è proverbiale</indizio1>
-		<indizio2>tutti vorrebbero averla di ferro</indizio2>
-		<indizio3>qualcuno c'è la fotografica</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs personaggi1</autore>
-	</domanda>	
-
-
-    <domanda>
-        <tipo>testo</tipo>
-        <risorsa>il numero di ore che intercorrono tra il 1/4/1987 00:00 e il 1/4/2000 23:59 (estremi compresi)</risorsa>
-        <risposta>114000</risposta>
-		<accuratezza>elevata</accuratezza>
-        <indizio0>fai attenzione ai bisestili</indizio0>
-        <indizio1>non vorrai mica calcolarlo a mano?!</indizio1>
-        <indizio2>usa uno strumento automatico</indizio2>
-        <indizio3>calcola la differenza di giorni tramite excel</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
-        <autore>bs differnza oraria</autore>
-    </domanda>
-	
-	<domanda>
-        <tipo>testo</tipo>
-        <risorsa>unghia, diamante, fusto, cicala</risorsa>
-        <risposta>ancora | dell'ancora</risposta>
-		<accuratezza>elevata</accuratezza>
-        <indizio0>di cosa si parla?</indizio0>
-        <indizio1>aggiungo qualche parola: ceppo, marra</indizio1>
-        <indizio2>può spedare</indizio2>
-        <indizio3>un modello molto diffuso è detto Bruce</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
-        <autore>bs ancora</autore>
-    </domanda>
-	
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/cornice_cosa.jpg</risorsa>
-		<risposta>girl with balloon</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>what?</indizio0>
-		<indizio1>indubbiamente è una codifica strana</indizio1>
-		<indizio2>usa simboli non alfabetici al posto delle normali lettere</indizio2>
-		<indizio3>è per pochi eletti, una codifica di élite (1337)</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>109</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs leet</autore>
-	</domanda>
-	
-     <domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/numeri.jpg</risorsa>
-		<risposta>173561</risposta>
-		<indizio0>un numero</indizio0>
-		<indizio1>non ci sono errori!</indizio1>
-		<indizio2>quante dita ha un marziano?</indizio2>
-		<indizio3>usa la calcolatrice di Windows in modalità...</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs ottale</autore>
-	</domanda>
-	
-    <domanda>
-        <tipo>testo</tipo>
-        <risorsa>40.823226, 14.323818</risorsa>
-        <risposta>benedetto croce | croce</risposta>
-		<accuratezza>elevata</accuratezza>
-        <indizio0>fu scrittore e politico italiano</indizio0>
-        <indizio1>...anche filosofo e storico; collaborò con il Resto del Carlino</indizio1>
-        <indizio2>dai un'occhiata in giro... senza muoverti di casa</indizio2>
-        <indizio3>usa le coordinate in Google Maps</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>30</tartaruga>
-        <autore>bs benedetto croce su Maps</autore>
-    </domanda>	
-	
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/signorsi.jpg</risorsa>
-		<accuratezza>approssimata</accuratezza>
-		<risposta>specchio | riflessa | ribaltata | capovolta | ruotata</risposta>
-		<indizio0>quando tutti sono d'accordo, quello è il momento di cambiare il proprio punto di vista!</indizio0>
-		<indizio1>la statistica ha la sua valenza</indizio1>
-		<indizio2>statisticamente c'è qualcosa che non va</indizio2>
-		<indizio3>osserva la scolaresca: quasi tutti mancini? la foto è...</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>30</tartaruga>
- 		<autore>bs foto a specchio</autore>
-	</domanda>
-
- 	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/iscrizione.jpg</risorsa>
-		<accuratezza>elevata</accuratezza>
-		<risposta>sator</risposta>
-		<indizio0>un'antica iscrizione</indizio0>
-		<indizio1>cerca una chiave di lettura e procedi come un treno</indizio1>
-		<indizio2>leggi da destra a sinistra e viceversa</indizio2>
-		<indizio3>un quadrato magico</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>119</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs iscrizione antica</autore>
-	</domanda>
-	
-	<domanda>
-		<tipo>audio</tipo>
-		<risorsa>audio/vdp.mp3</risorsa>
-		<accuratezza>approssimata</accuratezza>
-		<risposta>torrese</risposta>
-		<indizio0>la madre del protagonista è...</indizio0>
-		<indizio1>leggi il testo originale</indizio1>
-		<indizio2>la madre non è napoletana</indizio2>
-		<indizio3>è una provinciale...</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs De Pretore</autore>
-	</domanda>	
-	
-	<domanda>
-		<tipo>sequenza</tipo>
-		<risorsa>immagini/isolanap.jpg</risorsa>
-		<risposta>sant'elena</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>una località...</indizio0>
-		<indizio1>fai il /refresh</indizio1>
-		<indizio2>fai il /refresh</indizio2>
-		<indizio3>fai il /refresh</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>50</bonus>
-		<tartaruga>0</tartaruga>
-		<autore>Anna Calemme Napoleone</autore>
-	</domanda>
-	
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/quadrato_w.jpg</risorsa>
-		<risposta>peperoncino senape origano cipolla zafferano</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>individua cinque parole collegate tra loro</indizio0>
-		<indizio1>cerca anche in diagonale</indizio1>
-		<indizio2>sono spezie o aromi utilizzati comunemente in cucina</indizio2>
-		<indizio3>c'è anche il granello di senape</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs spezie</autore>
-	</domanda>
-	
-	<domanda>
-		<tipo>sequenza</tipo>
-		<risorsa>immagini/rebus-man.jpg</risorsa>
-		<risposta>the old man and the sea</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>english rebus</indizio0>
-		<indizio1>fai il /refresh</indizio1>
-		<indizio2>fai il /refresh</indizio2>
-		<indizio3>fai il /refresh</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>30</tartaruga>
- 		<autore>bs rebus uomo e mare</autore>
-	</domanda>
-
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/arte_rosa_blu.jpg</risorsa>
-		<risposta>picasso</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>il riferimento è a...</indizio0>
-		<indizio1>è un personaggio spagnolo</indizio1>
-		<indizio2>è un protagonista del XX secolo</indizio2>
-		<indizio3>è un pittore e scultore</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs cubismo</autore>
-	</domanda>	
-	
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/film-auto.jpg</risorsa>
-		<risposta>duel</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>a cosa si riferiscono gli emoticon?</indizio0>
-		<indizio1>il titolo di un film</indizio1>
-		<indizio2>un film del 1971</indizio2>
-		<indizio3>fu diretto da Steven Spielberg</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>10</tartaruga>
- 		<autore>bs film auto</autore>
-	</domanda>
-	
-	<domanda>
-		<tipo>sequenza</tipo>
-		<risorsa>immagini/lingua_velenosa.jpg</risorsa>
-		<risposta>arsenico</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>...in che senso?</indizio0>
-		<indizio1>fai il /refresh</indizio1>
-		<indizio2>fai il /refresh</indizio2>
-		<indizio3>fai il /refresh</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs lingua velenosa</autore>
-	</domanda>
-
-	<domanda>
-        <tipo>audio</tipo>
-        <risorsa>audio/ForrestGump _quiz.mp3</risorsa>
-        <risposta>24</risposta>
-		<accuratezza>elevata</accuratezza>
-        <indizio0>rispondi alla domanda</indizio0>
-        <indizio1>una risposta semplice ad una domanda veloce</indizio1>
-        <indizio2>RRRRR?Vuole un cioccolatino?</indizio2>
-        <indizio3>prova a rallentare con audacity...</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
-		<tartaruga>30</tartaruga>
-        <autore>bs Forrest Gump</autore>
-    </domanda>
-
-	<domanda>
-		<tipo>sequenza</tipo>
-		<risorsa>immagini/marchio_b.jpg</risorsa>
-		<risposta>beats</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>individua il marchio</indizio0>
-		<indizio1>fai il /refresh</indizio1>
-		<indizio2>fai il /refresh</indizio2>
-		<indizio3>fai il /refresh</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs marchio cuffie</autore>
-	</domanda>
-	
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/parole-no.jpg</risorsa>
-		<risposta>nodo</risposta>
-		<accuratezza>elevata</accuratezza>
-		<indizio0>quale parola collega questi vocaboli?</indizio0>
-		<indizio1>margherita</indizio1>
-		<indizio2>corda</indizio2>
-		<indizio3>scorsoio</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>30</tartaruga>
- 		<autore>bs parole nodo</autore>
-	</domanda>
-	
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/stop.jpg</risorsa>
+		<risorsa>immagini/coming.jpg</risorsa>
 		<risposta>murexbrandaris</risposta>
 		<accuratezza>indefinita</accuratezza>
-		<indizio0>l'anteprima è terminata</indizio0>
+		<indizio0>la gara non è ancora iniziata</indizio0>
 		<indizio1>-----------------------</indizio1>
 		<indizio2>-----------------------</indizio2>
 		<indizio3>-----------------------</indizio3>
@@ -550,13 +58,1397 @@ ricorda che puoi ricominciare l'anteprima dall'inizio in qualsiasi momento invia
 		<attesa3>99999999</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
- 		<autore>bs fine anteprima</autore>
-	</domanda>	
-
+ 		<autore>bs coming soon</autore>
+	</domanda>
 	
-     <!-- FINE ANTEPRIMA -->
+    <domanda>
+        <tipo>testo</tipo>
+        <risorsa>quando la luce non c'è non esiste e quando la luce c'è si nasconde</risorsa>
+        <risposta>ombra</risposta>
+		<accuratezza>elevata</accuratezza>
+        <indizio0>indovinello</indizio0>
+        <indizio1>chiedilo alla luna che sorge</indizio1>
+        <indizio2>alla meridiana quando segna le ore</indizio2>
+        <indizio3>o anche al pescatore di De André</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+        <autore>Guariglia indivinello luce</autore>
+    </domanda>	
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/autunno.jpg</risorsa>
+		<risposta>torna</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>l'amore guarda le cose con occhi diversi</indizio0>
+		<indizio1>un messaggio di speranza</indizio1>
+		<indizio2>si compone spontaneamente sul foglio</indizio2>
+		<indizio3>con le macchie di inchiostro che sembrano disporsi a caso</indizio3>
+		<attesa1>30</attesa1>
+		<attesa2>40</attesa2>
+		<attesa3>50</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs autunno</autore>
+	</domanda>	
+	
+    <domanda>
+        <tipo>testo</tipo>
+        <risorsa>nel 2018 qual è stato il nome maschile e quale il nome femminile più diffusi tra i bambini?</risorsa>
+        <risposta>leonardo sofia</risposta>
+		<accuratezza>elevata</accuratezza>
+        <indizio0>indovinello</indizio0>
+        <indizio1>fai attenzione all'anno</indizio1>
+        <indizio2>è un dato rilevato statisticamente</indizio2>
+        <indizio3>è una statistica ISTAT</indizio3>
+		<attesa1>60</attesa1> 
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+        <autore>bs indovinello istat</autore>
+    </domanda>	
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/bandiere.jpg</risorsa>
+		<risposta>bianco blu rosso | bianco blue rosso</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>se quella in alto è la bandiera di Palau, quali sono i colori della bandiera in basso?
+		</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>15</tartaruga>
+ 		<autore>bs colori complementari</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/felicita.jpg</risorsa>
+		<risposta>la ricerca della felicità | la ricerca della felicita</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>il titolo</indizio0>
+		<indizio1>è un film del 2006</indizio1>
+		<indizio2>la storia di una padre e del figlio</indizio2>
+		<indizio3>con Will Smith</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs emoticon film felicità</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/ghigliottina1.jpg</risorsa>
+		<risposta>metropolitana</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>trova la parola collegata alle altre</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs ghigliottina1</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/asserzioni.jpg</risorsa>
+		<risposta>bg</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>elencare quali asserzioni in elenco sono VERE
+(esempio: scrivere BDF per indicare che le asserzioni B D F sono VERE)
+		</indizio0>
+		<indizio1>la prima asserzione è un paradosso (sarebbe contemporaneamente sia vera che falsa)</indizio1>
+		<indizio2>è la variante di un gioco classico</indizio2>
+		<indizio3>ci sono 2 asserzioni vere</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>30</tartaruga>
+ 		<autore>bs asserzioni</autore>
+	</domanda>	
+	
+    <domanda>
+        <tipo>testo</tipo>
+        <risorsa>you can see me in water, but I never get wet
+what am I?</risorsa>
+        <risposta>reflection | the reflection</risposta>
+		<accuratezza>elevata</accuratezza>
+        <indizio0>riddle</indizio0>
+        <indizio1>non è lo specchio né lo specchio d'acqua</indizio1>
+        <indizio2>lo specchio d'acqua consente di vederlo</indizio2>
+        <indizio3>la risposta è in inglese</indizio3>
+		<attesa1>60</attesa1> 
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+        <autore>Maria Ascione riddle1</autore>
+    </domanda>	
+	
+	<domanda>
+		<tipo>documento</tipo>
+		<risorsa>documenti/film.pdf</risorsa>
+		<risposta>il gladiatore | gladiator</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>il titolo del film celato all'interno del documento</indizio0>
+		<indizio1>l'apparenza inganna</indizio1>
+		<indizio2>analizza il documento in tutte le sue parti</indizio2>
+		<indizio3>prova con il copia e incolla del contenuto</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>45</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs pdf celato</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/puzzle1.jpg</risorsa>
+		<risposta>david di michelangelo | david</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>chi si cela tra i tasselli del puzzle?</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Guariglia david</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/gatti-padroni.jpg</risorsa>
+		<risposta>rosamunda ludovico clementina adalberto vladimiro</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>il nome dei proprietari dei gatti</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs gatti e padroni</autore>
+	</domanda>
 
+	<domanda>
+		<tipo>video</tipo>
+		<risorsa>video/proietti-asino.mp4</risorsa>
+		<risposta>5940</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>Δt</indizio0>
+		<indizio1>5:36 7:15</indizio1>
+		<indizio2>1h 39'</indizio2>
+		<indizio3>99'</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+		<autore>bs proietti asino</autore>
+    </domanda>
 
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/ghigliottina2.jpg</risorsa>
+		<risposta>vista</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>trova la parola collegata alle altre</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs ghigliottina2</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/dea.jpg</risorsa>
+		<risposta>aurora australis</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>you can see it at night and you have to travel a lot</indizio0>
+		<indizio1>sleeping beauty</indizio1>
+		<indizio2>the Roman goddess of the dawn</indizio2>
+		<indizio3>in the traditions of Aboriginal Australians, it is commonly associated with fire</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Pina Russo aurora</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/rebus.jpg</risorsa>
+		<risposta>fotosintesi clorofilliana</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>risolvi il rebus</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Vittorioso rebus</autore>
+	</domanda>
+
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/calc.jpg</risorsa>
+		<risposta>x5=</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>il display della mia calcolatrice è difettoso: si accendono solo i segmenti orizzontali e i punti mentre restano spenti i segmenti verticali
+		
+a partire dal numero che già compariva sul display (stato 1) eseguo in successione quattro volte la stessa operazione e ottengo i risultati che vedi
+		
+quale operazione ho fatto ogni volta?
+(indica i tasti che che ho premuto sulla tastiera della calcolatrice per eseguire una singola operazione, come illustrato in questi esempi: +2= oppure x13= oppure :3= ecc.)
+		</indizio0>
+		<indizio1>il risultato mostrato in corrisponenza dello stato 2 è composto da due differenti cifre</indizio1>
+		<indizio2>il risultato mostrato in corrisponenza dello stato 3 è composto da tre differenti cifre</indizio2>
+		<indizio3>il numero inziale è 5</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>15</tartaruga>
+ 		<autore>bs calcolatrice</autore>
+	</domanda>	
+	
+    <domanda>
+        <tipo>testo</tipo>
+        <risorsa>I am always in front of you but yet I am never here
+what am I?</risorsa>
+        <risposta>THE FUTURE | FUTURE</risposta>
+		<accuratezza>elevata</accuratezza>
+        <indizio0>riddle</indizio0>
+        <indizio1>...una cosa che non si può mai raggiungere</indizio1>
+        <indizio2>è un concetto astratto</indizio2>
+        <indizio3>non è il presente</indizio3>
+		<attesa1>60</attesa1> 
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+        <autore>Maria Ascione riddle2</autore>
+    </domanda>	
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/danubio.jpg</risorsa>
+		<risposta>mastodonti</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>mentre studiavo la cartina per capire cosa nascondesse, lessi il messaggio nell'angolo, mi fermai e accesi la radio: risuonavano le note del valzer di Strauss e con l'aiuto della musica mi fu subito tutto chiaro...
+		</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs danubio</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/letteratura.jpg</risorsa>
+		<risposta>Pirandello</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>come è possibile collegare le sei immagini?</indizio0>
+		<indizio1>non sono oggetti</indizio1>
+		<indizio2>hanno un comune denominatore</indizio2>
+		<indizio3>ci piace raccontare...</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>15</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Loredana Di Rosa letteratura</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/film-pasto.jpg</risorsa>
+		<risposta>cena con delitto | knives out</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>il titolo</indizio0>
+		<indizio1>un film del 2019</indizio1>
+		<indizio2>è un moderno giallo deduttivo</indizio2>
+		<indizio3>il regista è Rian Johnson</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs emoticon film pasto</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/identikit2.jpg</risorsa>
+		<risposta>barack obama | obama</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>il nome del personaggio</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs identikit politico</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/collage.jpg</risorsa>
+		<risposta>blu | blue</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>quale parola collega tutte le immagini del collage?</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs collage di immagini (colore)</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/piramide.jpg</risorsa>
+		<risposta>parigi</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>in quale città mi trovavo?</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs collage di immagini (numero)</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/angular.jpg</risorsa>
+		<risposta>(1, 90) | (1, 𝛑/2)</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>analogie</indizio0>
+		<indizio1>l'orso nero vive in un contesto rettangolare</indizio1>
+		<indizio2>il sistema cartesiano è detto anche rettangolare</indizio2>
+		<indizio3>l'orso bianco vive in un contesto polare</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>45</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Calemme angular</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/serpentone1.jpg</risorsa>
+		<risposta>manometro</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>rispondi con la parola che compare nel serpentone</indizio0>
+		<indizio1>--N----RO</indizio1>
+		<indizio2>--N-M--RO</indizio2>
+		<indizio3>M-N-M--RO</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs serpentone 1</autore>
+	</domanda>
+
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/word-puzzle1.jpg</risorsa>
+		<risposta>roma parigi budapest berlino copenaghen tallinn</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>individua le sei città presenti nel diagramma</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs word puzzle città</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/alphabet.jpg</risorsa>
+		<risposta>vivalascuola | viva la scuola</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>un messaggio cifrato</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>15</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs alphabet</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/english1.jpg</risorsa>
+		<risposta>The Blower's Daughter</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>risolvi il rebus in lingua inglese</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs rebus english1</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/oggetto.jpg</risorsa>
+		<risposta>uovo alla coque | uova alla coque</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>a cosa serve questo oggetto?</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs oggetto misterioso</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/identikit1.jpg</risorsa>
+		<risposta>tony stark</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>il nome del personaggio</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs identikit supereroe</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/collage2.jpg</risorsa>
+		<risposta>sette | 7</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>quale parola collega tutte le immagini del collage?</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs collage di immagini (numero)</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/english2.jpg</risorsa>
+		<risposta>Have You Ever Seen The Rain?</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>risolvi il rebus in lingua inglese</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs rebus english2</autore>
+	</domanda>
+	
+    <domanda>
+        <tipo>testo</tipo>
+        <risorsa>https://www.google.it/maps/@25.773401,-80.1854297,3a,75y,323.81h,79.89t/data=!3m6!1e1!3m4!1sAF1QipNQ4-KjN_ZgMYIILc_MlPvd16MLXxISk04Dog00!2e10!7i11000!8i5500</risorsa>
+        <risposta>john f. kennedy | john f kennedy | john kennedy | kennedy</risposta>
+		<accuratezza>elevata</accuratezza>
+        <indizio0>c'è una luce in sua memoria</indizio0>
+        <indizio1>una fiaccola</indizio1>
+        <indizio2>un monumento alla memoria</indizio2>
+        <indizio3>The Torch of Friendship</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+        <autore>Sara maps</autore>
+    </domanda>	
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/arco.jpg</risorsa>
+		<risposta>arco di trionfo | arco del trionfo</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>a cosa rimandano queste immagini?</indizio0>
+		<indizio1>il nome di un monumento</indizio1>
+		<indizio2>fu voluto da Napoleone Bonaparte</indizio2>
+		<indizio3>si trova a Parigi</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Guariglia arco</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/togata.jpg</risorsa>
+		<risposta>Giove Venere</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>"togata gens"
+chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
+		</indizio0>
+		<indizio1>è tratta da un'opera famosissima</indizio1>
+		<indizio2>si tratta di una profezia</indizio2>
+		<indizio3>Aspera Iuno fovebit romanos rerum dominos gentemque togatam</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>50</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Loredana Di Rosa togata gens</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/mastermind.jpg</risorsa>
+		<risposta>CVAB</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>risolvi il gioco e manda la soluzione come sequenza di lettere 
+(ad esempio BGCR)</indizio0>
+		<indizio1>il Rosso e il Nero non compaiono</indizio1>
+		<indizio2>il Marrone e il Giallo non compaiono</indizio2>
+		<indizio3>il primo colore è il Ciano</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs mastermind 1</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/serpentone2.jpg</risorsa>
+		<risposta>cartamodello</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>rispondi con la parola che compare nel serpentone</indizio0>
+		<indizio1>---T------LO</indizio1>
+		<indizio2>---T-M----LO</indizio2>
+		<indizio3>C--T-M----LO</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs serpentone 2</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/scienziati.jpg</risorsa>
+		<risposta>Heisenberg Schrödinger |  Heisenberg Schrodinger</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>barzelletta</indizio0>
+		<indizio1>sono due scienziati</indizio1>
+		<indizio2>c'entra il principio di indeterminazione</indizio2>
+		<indizio3>...ed anche l'esperimento paradossale sui gatti del 1935</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Calemme scienziati</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/libri.jpg</risorsa>
+		<risposta>Domanda Fondamentale sulla Vita Universo Tutto quanto</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>i libri rispondono a molti interrogativi ma in questo caso siamo alla ricerca di una domanda</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>45</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>calemme autostoppisti</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/animals.jpg</risorsa>
+		<risposta>ASTRILDE DI SANT'ELENA</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>gli animali giocano a scacchi</indizio0>
+		<indizio1>l'analisi della scacchiera è il punto di partenza</indizio1>
+		<indizio2>cosa c'è che non va?</indizio2>
+		<indizio3>riporta le coordinate</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>sara scacchi</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/operazione.jpg</risorsa>
+		<risposta>operazione Ira di Dio</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>come mi chiamo?</indizio0>
+		<indizio1>sono vendicativa</indizio1>
+		<indizio2>Munich</indizio2>
+		<indizio3>nome operazione militare</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Calemme operazione militare</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>video</tipo>
+		<risorsa>video/proietti-mucca.mp4</risorsa>
+		<risposta>bice nina</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>come si chiamano la mucca bianca e la mucca nera?</indizio0>
+		<indizio1>la soluzione è nel video</indizio1>
+		<indizio2>guarda al secondo 12</indizio2>
+		<indizio3>...e al secondo 29</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+		<autore>bs proietti mucca</autore>
+    </domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/firenze.jpg</risorsa>
+		<risposta>rosso fiorentino | giovan battista di jacopo di gasparre </risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>pittore italiano del primo 500</indizio0>
+		<indizio1>era Fiorentino</indizio1>
+		<indizio2>un "eccentrico fiorentino"</indizio2>
+		<indizio3>concentrati sul colore</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>15</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Guariglia Firenze</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/eroi.jpg</risorsa>
+		<risposta>the boys</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>di cosa si tratta?</indizio0>
+		<indizio1>sono sette</indizio1>
+		<indizio2>è una serie tv</indizio2>
+		<indizio3>Prime Video</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Sara the boys</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/zafferano.jpg</risorsa>
+		<risposta>colore | tingere | colorare</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>i fiori di campo dell'immagine cosa c'entrano con il matrimonio romano?</indizio0>
+		<indizio1>osserva con attenzione gli abiti</indizio1>
+		<indizio2>la sposa indossa il "flammeum"</indizio2>
+		<indizio3>i crochi sono fiori da cui si ricava lo zafferano</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>15</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Loredana Di Rosa zafferano</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/serpentone3.jpg</risorsa>
+		<risposta>arcobalenodisegnato | arcobaleno disegnato</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>rispondi con il testo che compare nel serpentone</indizio0>
+		<indizio1>A--O----N---------O</indizio1>
+		<indizio2>A--OB---N---------O</indizio2>
+		<indizio3>A--OB---N---SE----O</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs serpentone 3</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/word-puzzle2.jpg</risorsa>
+		<risposta>cane gatto tartaruga delfino picchio capodoglio</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>individua i sei animali presenti nel diagramma</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs word puzzle animali</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/pasolo.jpg</risorsa>
+		<risposta>Pier Paolo Pasolini | Pasolini</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>chi sono?</indizio0>
+		<indizio1>un regista</indizio1>
+		<indizio2>un neorealista</indizio2>
+		<indizio3>autore di Ragazzi di Vita</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Calemme pasolo</autore>
+	</domanda>
+	
+    <domanda>
+        <tipo>testo</tipo>
+        <risorsa>il più piccolo numero primo per il quale la somma delle cifre è 31
+(ad esempio la somma delle cifre del numero primo 67 è 13)</risorsa>
+        <risposta>4999</risposta>
+		<accuratezza>elevata</accuratezza>
+        <indizio0>calcolo enigmatico</indizio0>
+        <indizio1>è un numero di 4 cifre</indizio1>
+        <indizio2>solo una cifra è pari</indizio2>
+        <indizio3>è minore di 5000</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>30</tartaruga>
+        <autore>bs numero primo</autore>
+    </domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/scacchi.jpg</risorsa>
+		<risposta>nerone</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>fai l'analisi della scacchiera per superare il livello</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs scacchi e parola</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/serie-cifre.jpg</risorsa>
+		<risposta>2+1+3+6=12 | 3+6+2+1=12 | 3+9=12 | 9+3=12</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>risolvi la serie numerica
+riporta, senza spazi, il calcolo che porta alla soluzione
+(ad esempio 3+2-5=0)</indizio0>
+		<indizio1>99-72=27 non porta a niente... infatti 21-13≠7</indizio1>
+		<indizio2>lavora sulle singole cifre</indizio2>
+		<indizio3>è una rappresentazione del puzzle di Nob Yoshigahara</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs serie di Yoshigahara</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/resistenza.jpg</risorsa>
+		<risposta>Jan Palach</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>chi sono?</indizio0>
+		<indizio1>uno studente</indizio1>
+		<indizio2>un manifestante</indizio2>
+		<indizio3>simbolo della Resistenza Antisovietica</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Calemme resistenza</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/museum.jpg</risorsa>
+		<risposta>Elizabeth Ann Short | Elizabeth Short</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>https://www.google.it/maps/@34.1016851,-118.3201105,3a,75y,273.48h,77.21t/data=!3m6!1e1!3m4!1s4_KVLzQ0vaRvOBnEdFrtmQ!2e0!7i16384!8i8192</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>sara dalia nera</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/vita.jpg</risorsa>
+		<risposta>Jennifer Doudna Emmanuelle Charpentier | Doudna Charpentier </risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>siamo in due...</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Calemme scienziate</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/dima.jpg</risorsa>
+		<risposta>2cani3gatti | 2 cani 3 gatti</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>la cornice</indizio0>
+		<indizio1>una frase nascosta</indizio1>
+		<indizio2>usa la dima</indizio2>
+		<indizio3>i quadratini sono segnaposti</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs dima</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/english3.jpg</risorsa>
+		<risposta>There Is a Light That Never Goes Out</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>risolvi il rebus in lingua inglese</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs rebus english3</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/ibrido.jpg</risorsa>
+		<risposta>Ferrari SF90 Stradale</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>chi sono?</indizio0>
+		<indizio1>sono una supercar</indizio1>
+		<indizio2>Ferrari</indizio2>
+		<indizio3>un ibrido</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Calemme Ferrari</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/ghigliottina3.jpg</risorsa>
+		<risposta>bussola</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>trova la parola collegata alle altre</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs ghigliottina3</autore>
+	</domanda>
+	
+    <domanda>
+        <tipo>testo</tipo>
+        <risorsa>what goes up and down without moving?</risorsa>
+        <risposta>temperature | the temperature</risposta>
+		<accuratezza>elevata</accuratezza>
+        <indizio0>riddle</indizio0>
+        <indizio1>può essere ambientale</indizio1>
+        <indizio2>si può misurare</indizio2>
+        <indizio3>si misura con il termometro</indizio3>
+		<attesa1>60</attesa1> 
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+        <autore>Maria Ascione riddle3</autore>
+    </domanda>	
+	
+		<domanda>
+		<tipo>link</tipo>
+		<risorsa>http://ec2-18-221-171-117.us-east-2.compute.amazonaws.com/</risorsa>
+		<risposta>x_____anno</risposta>
+		<accuratezza>indefinita</accuratezza>
+		<indizio0>gioca e vinci totalizzando 20000 punti (browser consigliato Chrome)
+(al posto degli indizi riceverai nuovi obiettivi di vincita sotto forma di bonus)
+		</indizio0>
+		<indizio1>bonus=15000</indizio1>
+		<indizio2>bonus=10000</indizio2>
+		<indizio3>bonus=5000</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>lino gioco</autore>
+	</domanda>	
+	
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/identikit3.jpg</risorsa>
+		<risposta>zenone | zenone di elea</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>il nome del personaggio</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs identikit storico</autore>
+	</domanda>
+
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/isola.jpg</risorsa>
+		<risposta>Robinson Crusoe</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>he wants to leave his country</indizio0>
+		<indizio1>he is very seldom idle</indizio1>
+		<indizio2>he thanks God for being there</indizio2>
+		<indizio3>Friday is not like any other day for him</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Pina Russo isola</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/giusti.jpg</risorsa>
+		<risposta>rana</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>rispondi al quesito</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs indovinello botta</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>video</tipo>
+		<risorsa>video/tempo.mp4</risorsa>
+		<risposta>tecnica pomodoro</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>la gestione del tempo è un "ingrediente" importante per affrontare e vincere le sfide
+		
+cosa richiama esplicitamente il video?</indizio0>
+		<indizio1>nel video compare un timer</indizio1>
+		<indizio2>una tecnica per la gestione del tempo</indizio2>
+		<indizio3>il timer ha la durata di 25 minuti ed ha la forma di un pomodoro</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>50</bonus>
+		<tartaruga>0</tartaruga>
+		<autore>andrea video apple</autore>
+    </domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/grafi.jpg</risorsa>
+		<risposta>8375 7968 7386 10326</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>individua tutte le sequenze numeriche che corrispondono a parole di senso compiuto, ottenute percorrendo i grafi in modo da toccare tutti i vertici una volta sola
+(ad esempio 4576 5124)</indizio0>
+		<indizio1>gli anagrammi di "marte"</indizio1>
+		<indizio2>in totale devi indicare 4 sequenze numeriche</indizio2>
+		<indizio3>segui i percorsi sul quarto grafo</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs grafi</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>audio</tipo>
+		<risorsa>audio/blabla.m4a</risorsa>
+		<risposta>grammelot | gramelot</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>di cosa si tratta?</indizio0>
+		<indizio1>effettivamente non si capisce granché</indizio1>
+		<indizio2>è un gioco verbale usato in teatro</indizio2>
+		<indizio3>riproduce la sonorità di una lingua o di un dialetto
+in passato veniva usato per fare satira politica evitando la censura
+Dario Fo ne ha fatto grande uso</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs gioco verbale</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/labirinto1.jpg</risorsa>
+		<risposta>168 56</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>quante sono le zampe dei bipedi e quante quelle dei quadrupedi?</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs labirinto</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/lego.jpg</risorsa>
+		<risposta>event tracking</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>i Toa e la battaglia contro Makuta Teridax</indizio0>
+		<indizio1>LEGO Bionicle: 2001-2010</indizio1>
+		<indizio2>Bionicle Universe</indizio2>
+		<indizio3>Matoran Alphabet</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs lego</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/logo1.jpg</risorsa>
+		<risposta>hp | Hewlett-Packard</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>un marchio di prestigio</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs logo pc</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/rosa.jpg</risorsa>
+		<risposta>peperoni america</risposta>
+		<accuratezza>approssimata</accuratezza>
+		<indizio0>il brano è estratto dal romanzo di Umberto Eco
+nel racconto c'è qualcosa che non quadra: perché?</indizio0>
+		<indizio1>è importante considerare che il racconto è ambientato nell'anno 1327</indizio1>
+		<indizio2>si tratta di un errore che lo stesso autore ammise e che fu corretto in edizioni successive</indizio2>
+		<indizio3>fai attenzione alle pietanze: qualcosa non poterva esserci su quella tavola!</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs il nome della rosa</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/qualificativi.jpg</risorsa>
+		<risposta>sommo divin perfetto | sommo divino perfetto</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>qualificativi eccellenti</indizio0>
+		<indizio1>il ..... Poeta</indizio1>
+		<indizio2>il ..... Codino</indizio2>
+		<indizio3>un numero .....</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>calemme qualificativi eccellenti</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/mastermind2.jpg</risorsa>
+		<risposta>NVRG</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>risolvi il gioco e manda la soluzione come sequenza di lettere 
+(ad esempio BGCR)</indizio0>
+		<indizio1>il Marrone non compare</indizio1>
+		<indizio2>l'Arancio non compare</indizio2>
+		<indizio3>il primo colore è il Nero</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>15</tartaruga>
+ 		<autore>bs mastermind 2</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/scheda.jpg</risorsa>
+		<risposta>hallo</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>gli albori dell'informatica: le schede perforate</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs scheda perforata</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/sovrapposizioni.jpg</risorsa>
+		<risposta>Vio Aniston Ferragni</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>il cognome dei tre personaggi sovrapposti in questa immagine</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs immagini sovrapposte</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>audio</tipo>
+		<risorsa>audio/speech.m4a</risorsa>
+		<risposta>reagan 1987 | Ronald Reagan 1987</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>chi pronuncia questo discorso e in che anno?</indizio0>
+		<indizio1>una sfida verso il segretario generale del PCUS</indizio1>
+		<indizio2>il riferimento è al muro di Berlino</indizio2>
+		<indizio3>Tear Down This Wall</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>30</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs speech berlino</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/stelle.jpg</risorsa>
+		<risposta>Diagramma H-R | Diagramma HR | Diagramma di Hertzsprung-Russel</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>noi e l'universo</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>15</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Calemme diagramma colore</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/roman.jpg</risorsa>
+		<risposta>Bath</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>the Romans built this place</indizio0>
+		<indizio1>it became a royal borough of Alfred the Great</indizio1>
+		<indizio2>in this place King Arthur defeated the Anglo-Saxons</indizio2>
+		<indizio3>this city is connected to Bristol and the sea by the River Avon</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>Pina Russo romani</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/scritta.jpg</risorsa>
+		<risposta>pane e latte</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>cioè?</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs in ucraino</autore>
+	</domanda>
+	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/dolomiti.jpg</risorsa>
+		<risposta>altoadige | alto adige</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>il fascino delle Dolomiti: il paesaggio alpino crea intrecci come ricami che si riflettono nei laghi limpidi</indizio0>
+		<indizio1>le cime dei "monti pallidi", quando il sole le attraversa, si riflettono sul manto innevato con ombre che si allungano a dismisura</indizio1>
+		<indizio2>le ombre dei monti sono come tessere rovesciate, che raccontano del tempo che fugge via</indizio2>
+		<indizio3>affidati alla ragione e concentrati su una sola regione</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs dolomiti</autore>
+	</domanda>	
+	
+	<domanda>
+		<tipo>sequenza</tipo>
+		<risorsa>immagini/logo2.jpg</risorsa>
+		<risposta>campania | regione campania</risposta>
+		<accuratezza>elevata</accuratezza>
+		<indizio0>riconosci questo logo?</indizio0>
+		<indizio1>sequenza</indizio1>
+		<indizio2>sequenza</indizio2>
+		<indizio3>sequenza</indizio3>
+		<attesa1>60</attesa1>
+		<attesa2>90</attesa2>
+		<attesa3>120</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs logo regione</autore>
+	</domanda>
+	
   	<domanda>
 		<tipo>chiusura</tipo>
 		<risorsa>immagini/forziere.png</risorsa>
