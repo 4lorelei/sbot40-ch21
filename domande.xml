@@ -44,23 +44,6 @@ Tocca il pulsante "indizi" per continuare.
 	 
 	<!-- FINE ANTEPRIMA -->
 
-	<domanda>
-		<tipo>immagine</tipo>
-		<risorsa>immagini/coming.jpg</risorsa>
-		<risposta>murexbrandaris</risposta>
-		<accuratezza>indefinita</accuratezza>
-		<indizio0>la gara non è ancora iniziata</indizio0>
-		<indizio1>-----------------------</indizio1>
-		<indizio2>-----------------------</indizio2>
-		<indizio3>-----------------------</indizio3>
-		<attesa1>99999999</attesa1>
-		<attesa2>99999999</attesa2>
-		<attesa3>99999999</attesa3>
-		<bonus>0</bonus>
-		<tartaruga>0</tartaruga>
- 		<autore>bs coming soon</autore>
-	</domanda>
-	
     <domanda>
         <tipo>testo</tipo>
         <risorsa>quando la luce non c'è non esiste e quando la luce c'è si nasconde</risorsa>
