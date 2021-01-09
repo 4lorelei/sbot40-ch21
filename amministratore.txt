@@ -1,1 +1,1 @@
-{"270509489":true,"flag":true,"stato_gioco":"in_pausa","maxTeam":5,"accuratezza_risposta":"elevata","variazione_team":25,"clock":"si_sospende","comando_zero":"disabilitato"}
+{"270509489":true,"flag":true,"stato_gioco":"in_esecuzione","maxTeam":5,"accuratezza_risposta":"elevata","variazione_team":-1,"clock":"si_sospende","comando_zero":"abilitato"}

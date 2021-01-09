@@ -3,14 +3,14 @@
 	<domanda>
 		<tipo>testo</tipo>
 		<risorsa>
-Benvenuto in Chestnut 2021!!!
+Benvenuto in Chestnut 2021 Replay.
+Gli avanzamenti nei livelli ed eventauli registrazioni saranno annullati dopo un breve periodo di inutilizzo del bot e sarà ripristinata la classifica finale della gara.
 
-Chestnut è una gara riservata agli studenti del liceo Nobel.
-Per essere incluso nella classifica ufficiale devi impostare il nickname ed effettuare la registrazione anagrafica.
+I tempi di attesa per gli indizi sono di pochi minuti e le soluzioni degli enigmi sono riportate sul canale ufficiale @InsideChestnut2021.
 
-@InsideChestnut2021 è il canale ufficiale della caccia al tesoro: unisciti al canale per prendere visione del regolamento e restare sempre aggiornato.
+Per ripartire dal livello 0 invia il messaggio /zero
 
-Tocca il pulsante "indizi" per continuare.
+Per continuare tocca il pulsante 'indizi'
 		</risorsa>
 		<risposta>ok</risposta>
 		<accuratezza>approssimata</accuratezza>
@@ -53,9 +53,9 @@ Tocca il pulsante "indizi" per continuare.
         <indizio1>chiedilo alla luna che sorge</indizio1>
         <indizio2>alla meridiana quando segna le ore</indizio2>
         <indizio3>o anche al pescatore di De André</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
         <autore>Guariglia indivinello luce</autore>
@@ -70,9 +70,9 @@ Tocca il pulsante "indizi" per continuare.
 		<indizio1>un messaggio di speranza</indizio1>
 		<indizio2>si compone spontaneamente sul foglio</indizio2>
 		<indizio3>con le macchie di inchiostro che sembrano disporsi a caso</indizio3>
-		<attesa1>30</attesa1>
-		<attesa2>40</attesa2>
-		<attesa3>50</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs autunno</autore>
@@ -87,10 +87,10 @@ Tocca il pulsante "indizi" per continuare.
         <indizio1>fai attenzione all'anno</indizio1>
         <indizio2>è un dato rilevato statisticamente</indizio2>
         <indizio3>è una statistica ISTAT</indizio3>
-		<attesa1>60</attesa1> 
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
         <autore>bs indovinello istat</autore>
     </domanda>	
@@ -105,11 +105,11 @@ Tocca il pulsante "indizi" per continuare.
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
-		<tartaruga>15</tartaruga>
+		<tartaruga>0</tartaruga>
  		<autore>bs colori complementari</autore>
 	</domanda>
 	
@@ -122,10 +122,10 @@ Tocca il pulsante "indizi" per continuare.
 		<indizio1>è un film del 2006</indizio1>
 		<indizio2>la storia di una padre e del figlio</indizio2>
 		<indizio3>con Will Smith</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs emoticon film felicità</autore>
 	</domanda>
@@ -139,9 +139,9 @@ Tocca il pulsante "indizi" per continuare.
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs ghigliottina1</autore>
@@ -158,11 +158,11 @@ Tocca il pulsante "indizi" per continuare.
 		<indizio1>la prima asserzione è un paradosso (sarebbe contemporaneamente sia vera che falsa)</indizio1>
 		<indizio2>è la variante di un gioco classico</indizio2>
 		<indizio3>ci sono 2 asserzioni vere</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
-		<tartaruga>30</tartaruga>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
  		<autore>bs asserzioni</autore>
 	</domanda>	
 	
@@ -176,9 +176,9 @@ what am I?</risorsa>
         <indizio1>non è lo specchio né lo specchio d'acqua</indizio1>
         <indizio2>lo specchio d'acqua consente di vederlo</indizio2>
         <indizio3>la risposta è in inglese</indizio3>
-		<attesa1>60</attesa1> 
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
         <autore>Maria Ascione riddle1</autore>
@@ -193,10 +193,10 @@ what am I?</risorsa>
 		<indizio1>l'apparenza inganna</indizio1>
 		<indizio2>analizza il documento in tutte le sue parti</indizio2>
 		<indizio3>prova con il copia e incolla del contenuto</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>45</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs pdf celato</autore>
 	</domanda>	
@@ -210,9 +210,9 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Guariglia david</autore>
@@ -227,9 +227,9 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs gatti e padroni</autore>
@@ -244,9 +244,9 @@ what am I?</risorsa>
 		<indizio1>5:36 7:15</indizio1>
 		<indizio2>1h 39'</indizio2>
 		<indizio3>99'</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
 		<autore>bs proietti asino</autore>
@@ -261,10 +261,10 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs ghigliottina2</autore>
 	</domanda>
@@ -278,10 +278,10 @@ what am I?</risorsa>
 		<indizio1>sleeping beauty</indizio1>
 		<indizio2>the Roman goddess of the dawn</indizio2>
 		<indizio3>in the traditions of Aboriginal Australians, it is commonly associated with fire</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Pina Russo aurora</autore>
 	</domanda>
@@ -295,10 +295,10 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Vittorioso rebus</autore>
 	</domanda>
@@ -318,11 +318,11 @@ quale operazione ho fatto ogni volta?
 		<indizio1>il risultato mostrato in corrisponenza dello stato 2 è composto da due differenti cifre</indizio1>
 		<indizio2>il risultato mostrato in corrisponenza dello stato 3 è composto da tre differenti cifre</indizio2>
 		<indizio3>il numero inziale è 5</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
-		<tartaruga>15</tartaruga>
+		<tartaruga>0</tartaruga>
  		<autore>bs calcolatrice</autore>
 	</domanda>	
 	
@@ -336,9 +336,9 @@ what am I?</risorsa>
         <indizio1>...una cosa che non si può mai raggiungere</indizio1>
         <indizio2>è un concetto astratto</indizio2>
         <indizio3>non è il presente</indizio3>
-		<attesa1>60</attesa1> 
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
         <autore>Maria Ascione riddle2</autore>
@@ -354,9 +354,9 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs danubio</autore>
@@ -371,10 +371,10 @@ what am I?</risorsa>
 		<indizio1>non sono oggetti</indizio1>
 		<indizio2>hanno un comune denominatore</indizio2>
 		<indizio3>ci piace raccontare...</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>15</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Loredana Di Rosa letteratura</autore>
 	</domanda>	
@@ -388,10 +388,10 @@ what am I?</risorsa>
 		<indizio1>un film del 2019</indizio1>
 		<indizio2>è un moderno giallo deduttivo</indizio2>
 		<indizio3>il regista è Rian Johnson</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs emoticon film pasto</autore>
 	</domanda>	
@@ -405,10 +405,10 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs identikit politico</autore>
 	</domanda>
@@ -422,9 +422,9 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs collage di immagini (colore)</autore>
@@ -439,9 +439,9 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs collage di immagini (numero)</autore>
@@ -456,10 +456,10 @@ what am I?</risorsa>
 		<indizio1>l'orso nero vive in un contesto rettangolare</indizio1>
 		<indizio2>il sistema cartesiano è detto anche rettangolare</indizio2>
 		<indizio3>l'orso bianco vive in un contesto polare</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>45</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Calemme angular</autore>
 	</domanda>
@@ -473,9 +473,9 @@ what am I?</risorsa>
 		<indizio1>--N----RO</indizio1>
 		<indizio2>--N-M--RO</indizio2>
 		<indizio3>M-N-M--RO</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs serpentone 1</autore>
@@ -490,9 +490,9 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs word puzzle città</autore>
@@ -507,10 +507,10 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>15</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs alphabet</autore>
 	</domanda>
@@ -524,9 +524,9 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs rebus english1</autore>
@@ -541,9 +541,9 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs oggetto misterioso</autore>
@@ -558,10 +558,10 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs identikit supereroe</autore>
 	</domanda>
@@ -575,10 +575,10 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs collage di immagini (numero)</autore>
 	</domanda>
@@ -592,9 +592,9 @@ what am I?</risorsa>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs rebus english2</autore>
@@ -609,10 +609,10 @@ what am I?</risorsa>
         <indizio1>una fiaccola</indizio1>
         <indizio2>un monumento alla memoria</indizio2>
         <indizio3>The Torch of Friendship</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
         <autore>Sara maps</autore>
     </domanda>	
@@ -626,9 +626,9 @@ what am I?</risorsa>
 		<indizio1>il nome di un monumento</indizio1>
 		<indizio2>fu voluto da Napoleone Bonaparte</indizio2>
 		<indizio3>si trova a Parigi</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Guariglia arco</autore>
@@ -645,10 +645,10 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>è tratta da un'opera famosissima</indizio1>
 		<indizio2>si tratta di una profezia</indizio2>
 		<indizio3>Aspera Iuno fovebit romanos rerum dominos gentemque togatam</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>50</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Loredana Di Rosa togata gens</autore>
 	</domanda>	
@@ -663,10 +663,10 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>il Rosso e il Nero non compaiono</indizio1>
 		<indizio2>il Marrone e il Giallo non compaiono</indizio2>
 		<indizio3>il primo colore è il Ciano</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs mastermind 1</autore>
 	</domanda>
@@ -680,9 +680,9 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>---T------LO</indizio1>
 		<indizio2>---T-M----LO</indizio2>
 		<indizio3>C--T-M----LO</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs serpentone 2</autore>
@@ -697,9 +697,9 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>sono due scienziati</indizio1>
 		<indizio2>c'entra il principio di indeterminazione</indizio2>
 		<indizio3>...ed anche l'esperimento paradossale sui gatti del 1935</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Calemme scienziati</autore>
@@ -714,10 +714,10 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>45</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>calemme autostoppisti</autore>
 	</domanda>
@@ -731,9 +731,9 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>l'analisi della scacchiera è il punto di partenza</indizio1>
 		<indizio2>cosa c'è che non va?</indizio2>
 		<indizio3>riporta le coordinate</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>sara scacchi</autore>
@@ -748,10 +748,10 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>sono vendicativa</indizio1>
 		<indizio2>Munich</indizio2>
 		<indizio3>nome operazione militare</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Calemme operazione militare</autore>
 	</domanda>
@@ -765,9 +765,9 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>la soluzione è nel video</indizio1>
 		<indizio2>guarda al secondo 12</indizio2>
 		<indizio3>...e al secondo 29</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
 		<autore>bs proietti mucca</autore>
@@ -782,10 +782,10 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>era Fiorentino</indizio1>
 		<indizio2>un "eccentrico fiorentino"</indizio2>
 		<indizio3>concentrati sul colore</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>15</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Guariglia Firenze</autore>
 	</domanda>
@@ -799,9 +799,9 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>sono sette</indizio1>
 		<indizio2>è una serie tv</indizio2>
 		<indizio3>Prime Video</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Sara the boys</autore>
@@ -816,10 +816,10 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>osserva con attenzione gli abiti</indizio1>
 		<indizio2>la sposa indossa il "flammeum"</indizio2>
 		<indizio3>i crochi sono fiori da cui si ricava lo zafferano</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>15</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Loredana Di Rosa zafferano</autore>
 	</domanda>	
@@ -833,9 +833,9 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>A--O----N---------O</indizio1>
 		<indizio2>A--OB---N---------O</indizio2>
 		<indizio3>A--OB---N---SE----O</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs serpentone 3</autore>
@@ -850,9 +850,9 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs word puzzle animali</autore>
@@ -867,10 +867,10 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>un regista</indizio1>
 		<indizio2>un neorealista</indizio2>
 		<indizio3>autore di Ragazzi di Vita</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Calemme pasolo</autore>
 	</domanda>
@@ -885,11 +885,11 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
         <indizio1>è un numero di 4 cifre</indizio1>
         <indizio2>solo una cifra è pari</indizio2>
         <indizio3>è minore di 5000</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
-		<tartaruga>30</tartaruga>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
         <autore>bs numero primo</autore>
     </domanda>
 	
@@ -902,10 +902,10 @@ chi pronuncia questa espressione e a chi si rivolge mentre la proferisce?
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs scacchi e parola</autore>
 	</domanda>
@@ -921,9 +921,9 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>99-72=27 non porta a niente... infatti 21-13≠7</indizio1>
 		<indizio2>lavora sulle singole cifre</indizio2>
 		<indizio3>è una rappresentazione del puzzle di Nob Yoshigahara</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs serie di Yoshigahara</autore>
@@ -938,10 +938,10 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>uno studente</indizio1>
 		<indizio2>un manifestante</indizio2>
 		<indizio3>simbolo della Resistenza Antisovietica</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Calemme resistenza</autore>
 	</domanda>
@@ -955,10 +955,10 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>sara dalia nera</autore>
 	</domanda>
@@ -972,10 +972,10 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Calemme scienziate</autore>
 	</domanda>
@@ -989,9 +989,9 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>una frase nascosta</indizio1>
 		<indizio2>usa la dima</indizio2>
 		<indizio3>i quadratini sono segnaposti</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs dima</autore>
@@ -1006,9 +1006,9 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs rebus english3</autore>
@@ -1023,10 +1023,10 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>sono una supercar</indizio1>
 		<indizio2>Ferrari</indizio2>
 		<indizio3>un ibrido</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Calemme Ferrari</autore>
 	</domanda>
@@ -1040,9 +1040,9 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs ghigliottina3</autore>
@@ -1057,28 +1057,27 @@ riporta, senza spazi, il calcolo che porta alla soluzione
         <indizio1>può essere ambientale</indizio1>
         <indizio2>si può misurare</indizio2>
         <indizio3>si misura con il termometro</indizio3>
-		<attesa1>60</attesa1> 
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
         <autore>Maria Ascione riddle3</autore>
     </domanda>	
 	
 		<domanda>
-		<tipo>link</tipo>
-		<risorsa>http://ec2-18-221-171-117.us-east-2.compute.amazonaws.com/</risorsa>
-		<risposta>x_____anno</risposta>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/game.jpg</risorsa>
+		<risposta>avanza</risposta>
 		<accuratezza>indefinita</accuratezza>
-		<indizio0>gioca e vinci totalizzando 20000 punti (browser consigliato Chrome)
-(al posto degli indizi riceverai nuovi obiettivi di vincita sotto forma di bonus)
+		<indizio0>gioco non disponibile - supera il livello inviando il messaggio "avanza"
 		</indizio0>
-		<indizio1>bonus=15000</indizio1>
-		<indizio2>bonus=10000</indizio2>
-		<indizio3>bonus=5000</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<indizio1>non disponibile</indizio1>
+		<indizio2>non disponibile</indizio2>
+		<indizio3>non disponibile</indizio3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>lino gioco</autore>
@@ -1094,9 +1093,9 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs identikit storico</autore>
@@ -1111,9 +1110,9 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>he is very seldom idle</indizio1>
 		<indizio2>he thanks God for being there</indizio2>
 		<indizio3>Friday is not like any other day for him</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Pina Russo isola</autore>
@@ -1128,9 +1127,9 @@ riporta, senza spazi, il calcolo che porta alla soluzione
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs indovinello botta</autore>
@@ -1147,10 +1146,10 @@ cosa richiama esplicitamente il video?</indizio0>
 		<indizio1>nel video compare un timer</indizio1>
 		<indizio2>una tecnica per la gestione del tempo</indizio2>
 		<indizio3>il timer ha la durata di 25 minuti ed ha la forma di un pomodoro</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>50</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
 		<autore>andrea video apple</autore>
     </domanda>
@@ -1165,9 +1164,9 @@ cosa richiama esplicitamente il video?</indizio0>
 		<indizio1>gli anagrammi di "marte"</indizio1>
 		<indizio2>in totale devi indicare 4 sequenze numeriche</indizio2>
 		<indizio3>segui i percorsi sul quarto grafo</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs grafi</autore>
@@ -1184,10 +1183,10 @@ cosa richiama esplicitamente il video?</indizio0>
 		<indizio3>riproduce la sonorità di una lingua o di un dialetto
 in passato veniva usato per fare satira politica evitando la censura
 Dario Fo ne ha fatto grande uso</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs gioco verbale</autore>
 	</domanda>
@@ -1201,9 +1200,9 @@ Dario Fo ne ha fatto grande uso</indizio3>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs labirinto</autore>
@@ -1218,9 +1217,9 @@ Dario Fo ne ha fatto grande uso</indizio3>
 		<indizio1>LEGO Bionicle: 2001-2010</indizio1>
 		<indizio2>Bionicle Universe</indizio2>
 		<indizio3>Matoran Alphabet</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs lego</autore>
@@ -1235,9 +1234,9 @@ Dario Fo ne ha fatto grande uso</indizio3>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs logo pc</autore>
@@ -1253,10 +1252,10 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>è importante considerare che il racconto è ambientato nell'anno 1327</indizio1>
 		<indizio2>si tratta di un errore che lo stesso autore ammise e che fu corretto in edizioni successive</indizio2>
 		<indizio3>fai attenzione alle pietanze: qualcosa non poterva esserci su quella tavola!</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs il nome della rosa</autore>
 	</domanda>
@@ -1270,10 +1269,10 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>il ..... Poeta</indizio1>
 		<indizio2>il ..... Codino</indizio2>
 		<indizio3>un numero .....</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>calemme qualificativi eccellenti</autore>
 	</domanda>
@@ -1288,11 +1287,11 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>il Marrone non compare</indizio1>
 		<indizio2>l'Arancio non compare</indizio2>
 		<indizio3>il primo colore è il Nero</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
-		<tartaruga>15</tartaruga>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
  		<autore>bs mastermind 2</autore>
 	</domanda>
 	
@@ -1305,9 +1304,9 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs scheda perforata</autore>
@@ -1322,9 +1321,9 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs immagini sovrapposte</autore>
@@ -1339,10 +1338,10 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>una sfida verso il segretario generale del PCUS</indizio1>
 		<indizio2>il riferimento è al muro di Berlino</indizio2>
 		<indizio3>Tear Down This Wall</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>30</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs speech berlino</autore>
 	</domanda>
@@ -1356,10 +1355,10 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
-		<bonus>15</bonus>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
+		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Calemme diagramma colore</autore>
 	</domanda>
@@ -1373,9 +1372,9 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>it became a royal borough of Alfred the Great</indizio1>
 		<indizio2>in this place King Arthur defeated the Anglo-Saxons</indizio2>
 		<indizio3>this city is connected to Bristol and the sea by the River Avon</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>Pina Russo romani</autore>
@@ -1390,9 +1389,9 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs in ucraino</autore>
@@ -1407,9 +1406,9 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>le cime dei "monti pallidi", quando il sole le attraversa, si riflettono sul manto innevato con ombre che si allungano a dismisura</indizio1>
 		<indizio2>le ombre dei monti sono come tessere rovesciate, che raccontano del tempo che fugge via</indizio2>
 		<indizio3>affidati alla ragione e concentrati su una sola regione</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs dolomiti</autore>
@@ -1424,14 +1423,31 @@ nel racconto c'è qualcosa che non quadra: perché?</indizio0>
 		<indizio1>sequenza</indizio1>
 		<indizio2>sequenza</indizio2>
 		<indizio3>sequenza</indizio3>
-		<attesa1>60</attesa1>
-		<attesa2>90</attesa2>
-		<attesa3>120</attesa3>
+		<attesa1>1</attesa1>
+		<attesa2>2</attesa2>
+		<attesa3>3</attesa3>
 		<bonus>0</bonus>
 		<tartaruga>0</tartaruga>
  		<autore>bs logo regione</autore>
 	</domanda>
 	
+	<domanda>
+		<tipo>immagine</tipo>
+		<risorsa>immagini/forziere.png</risorsa>
+		<risposta>impossibile798797987</risposta>
+		<accuratezza>indefinita</accuratezza>
+		<indizio0>hai raggiunto il tesoro di Chestnut 2021 Replay</indizio0>
+		<indizio1>-----</indizio1>
+		<indizio2>-----</indizio2>
+		<indizio3>-----</indizio3>
+		<attesa1>99999999</attesa1>
+		<attesa2>99999999</attesa2>
+		<attesa3>99999999</attesa3>
+		<bonus>0</bonus>
+		<tartaruga>0</tartaruga>
+ 		<autore>bs chiusura replay</autore>
+	</domanda>
+
   	<domanda>
 		<tipo>chiusura</tipo>
 		<risorsa>immagini/forziere.png</risorsa>
